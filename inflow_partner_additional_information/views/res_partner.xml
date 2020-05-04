@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_partner_inherit_view_cluster" model="ir.ui.view">
+            <field name="name">Res Partner Form View Inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <field name="lang" position="after">
+                    <field name="partner_cin_number" attrs="{'readonly': [('state', '=','approve')], 'invisible': [('company_type', '!=', 'company')]}"/>
+                </field>
+                <field name="lang" position="after">
+                    <field name="partner_pan_number" attrs="{'readonly': [('state', '=','approve')]}"/>
+                </field>
+                <field name="vat" position="after">
+                    <field name="partner_company_type" widget="selection" attrs="{'required': [('customer','=', True),('state', '=','confirm'),('company_type', '=','company')], 'readonly': [('state', '=','approve')]}"/>
+                </field>
+                <field name="industry_id" position="after">
+                    <field name="cluster_id" widget="selection" attrs="{'required': [('customer','=', True),('state', '=','confirm')], 'readonly': [('state', '=','approve')]}"/>
+                </field>
+                <field name="industry_id" position="after">
+                    <field name="partner_customer_type" widget="selection" attrs="{'required': [('customer','=', True),('state', '=','confirm')], 'readonly': [('state', '=','approve')], 'invisible': [('customer','!=', True)]}"/>
+                </field>
+                <field name="industry_id" position="after">
+                    <field name="partner_vendor_type" widget="selection" attrs="{'required': [('supplier','=', True),('state', '=','confirm')], 'readonly': [('state', '=','approve')], 'invisible': [('supplier','!=', True)]}"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

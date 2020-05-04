@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ -*- coding: utf-8 -*-
+-->
+
+			<odoo>
+				<data>
+					<!-- Partner Cluster Form View-->
+					<record id="view_industrial_cluster_form" model="ir.ui.view">
+						<field name="name">business.partner.cluster.form</field>
+						<field name="model">business.partner.cluster</field>
+						<field name="arch" type="xml">
+							<form string="Partner Cluster">
+								<group>
+									<field name="name"/>
+									<field name="cluster_code"/>
+                                    <field name="state_id"/>
+								</group>
+							</form>
+						</field>
+					</record>
+
+					<!-- Partner Cluster Tree View-->
+					<record id="view_industrial_cluster_tree" model="ir.ui.view">
+						<field name="name">business.partner.cluster.tree</field>
+						<field name="model">business.partner.cluster</field>
+						<field name="arch" type="xml">
+							<tree string="Partner Clusters">
+                                <field name="cluster_code"/>
+								<field name="name"/>
+								<field name="state_id"/>
+							</tree>
+						</field>
+					</record>
+
+					<!-- Partner Cluster Action-->
+					<record id="action_res_partner_cluster_form" model="ir.actions.act_window">
+						<field name="name">Business Partner Cluster</field>
+						<field name="res_model">business.partner.cluster</field>
+						<field name="view_type">form</field>
+						<field name="view_mode">tree,form</field>
+					</record>
+
+                    <!-- Partner Cluster MenuItem-->
+                    <menuitem action="action_res_partner_cluster_form" id="menu_res_partner_cluster_form" parent="contacts.menu_localisation"
+						name="Partner Clusters" sequence="5" />
+
+
+				</data>
+			</odoo>

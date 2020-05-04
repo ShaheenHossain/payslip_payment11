@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a75b10f-a8ba-46a3-93f8-4e6620d9e035" name="Default Changelist" comment="Addon Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/inflow.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/pages/sales" />
+      <recent name="$PROJECT_DIR$/docs/pages/sales/images" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,29 +60,57 @@
       <option name="project" value="LOCAL" />
       <updated>1588062515982</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Docs directory installed with Sphinx">
+      <created>1588300684433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588300684433</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New Test Commit">
+      <created>1588302984249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588302984249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Addon Commit 2nd May, 2020">
+      <created>1588391381785</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588391381785</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Addon Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addon Commit" />
+    <MESSAGE value="Added Docs directory installed with Sphinx" />
+    <MESSAGE value="New Test Commit" />
+    <MESSAGE value="Addon Commit 2nd May, 2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addon Commit 2nd May, 2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="307" y="23" width="825" height="813" key="CommitChangelistDialog2" timestamp="1588062512176">
+    <state x="307" y="23" width="825" height="813" key="CommitChangelistDialog2" timestamp="1588391381237">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="307" y="23" width="825" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1588062512176" />
-    <state x="229" y="68" key="SettingsEditor" timestamp="1588300013648">
+    <state x="307" y="23" width="825" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1588391381237" />
+    <state x="229" y="68" key="SettingsEditor" timestamp="1588309142220">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="229" y="68" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1588300013648" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1588062541348">
+    <state x="229" y="68" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1588309142220" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1588391398215">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1588062541348" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1588391398215" />
     <state x="531" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1588062357591">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="531" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.813@0.23.1440.813" timestamp="1588062357591" />
+    <state x="420" y="186" width="600" height="486" key="find.popup" timestamp="1588302111086">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="420" y="186" width="600" height="486" key="find.popup/0.23.1440.813@0.23.1440.813" timestamp="1588302111086" />
   </component>
 </project>
