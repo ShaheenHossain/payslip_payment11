@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a75b10f-a8ba-46a3-93f8-4e6620d9e035" name="Default Changelist" comment="Addon Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/accounting.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/pages/accounting.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,5 +112,9 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="420" y="186" width="600" height="486" key="find.popup/0.23.1440.813@0.23.1440.813" timestamp="1588302111086" />
+    <state x="385" y="160" width="670" height="676" key="search.everywhere.popup" timestamp="1590295030507">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="385" y="160" width="670" height="676" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1590295030507" />
   </component>
 </project>
