@@ -1,0 +1,2440 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* inflow_general_template
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-07 12:21+0000\n"
+"PO-Revision-Date: 2018-06-07 12:21+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "% discount"
+msgstr "% nuolaida"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "&amp;bull;"
+msgstr "&amp;bull;"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "(reload fonts)"
+msgstr "(Perkraukite fontus)"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "01 February, 2016"
+msgstr "2016 m. Vasario 1 d"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "10 March, 2016"
+msgstr "2016 m. Kovo 10 d"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "1000.00"
+msgstr "1000.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "123456789135"
+msgstr "123456789135"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "15 March, 2016"
+msgstr "2016 m. Kovo 15 d"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "1500.00"
+msgstr "1500.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "1900.00"
+msgstr "1900.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "1950.00"
+msgstr "1950.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "20 March, 2016"
+msgstr "2016 m. Kovo 20 d"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "4569896347"
+msgstr "4569896347"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "5.00%"
+msgstr "5.00%"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "50.00"
+msgstr "50.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "500.00"
+msgstr "500.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "900.00"
+msgstr "900.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+msgid "<b style=\"padding:10px 15px 10px 0px;\">Invoice No:</b><br/>"
+msgstr "<b style=\"padding:10px 15px 10px 0px;\">Sąskaitos Nr:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "<b style=\"padding:10px 15px;\">Invoice No:</b><br/>"
+msgstr "<b style=\"padding:10px 15px;\">Sąskaitos Nr:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+msgid "<b><span>Salesperson:</span></b>"
+msgstr "<b><span>Pardavėjas:</span></b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_customer_details
+msgid "<b>Biztech IT Consultancy Pvt. Ltd.</b>"
+msgstr "<b>Biztech IT Consultancy Pvt. Ltd.</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Carrier</b>"
+msgstr "<b>Vežėjas</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "<b>Comment:</b>We are a highly qualified team of well-rounded software"
+msgstr "<b>Komentaras:</b>Mes esame aukštos kvalifikacijos gerai suplanuotos programinės įrangos komanda"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Commitment Date</b>"
+msgstr "<b>Įsipareigojimo data</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Description:</b>"
+msgstr "<b>apibūdinimas:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+msgid "<b>Description:</b><br/>"
+msgstr "<b>apibūdinimas:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Due Date:</b>"
+msgstr "<b>Mokėjimo data:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+msgid "<b>Due Date:</b><br/>"
+msgstr "<b>Mokėjimo data:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+msgid "<b>Expiration Date:</b>"
+msgstr "<b>Galiojimo laikas:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "<b>Fiscal Position Remark:</b>20% VAT applies to all Electronic Devices"
+msgstr "<b>Pastabos dėl fiskalinės padėties:</b>20% PVM taikomas visiems elektroniniams įrenginiams"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Invoice Date:</b>"
+msgstr "<b>Sąskaitos data:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+msgid "<b>Invoice Date:</b><br/>"
+msgstr "<b>Sąskaitos data:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+msgid "<b>Invoice No:</b><br/>"
+msgstr "<b>Sąskaitos Nr:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Order (Origin):</b>"
+msgstr "<b>Užsakymas (kilmė):</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+msgid "<b>Order (Origin)</b>"
+msgstr "<b>Užsakymas (kilmė)</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Order Date:</b>"
+msgstr "<b>Užsakymo data:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+msgid "<b>Order Date:</b><br/>"
+msgstr "<b>Užsakymo data:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+msgid "<b>PO:</b>"
+msgstr "<b>PO:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "<b>PO:</b><br/>"
+msgstr "<b>PO:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+msgid "<b>Payment Term:</b>"
+msgstr "<b>Mokėjimo terminas:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "<b>Payment Term:</b>30 Days"
+msgstr "<b>Mokėjimo terminas:</b>30 dienų"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Payment is Pending</b>"
+msgstr "<b>Mokėjimas laukiamas</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Scheduled Date</b>"
+msgstr "<b>Suplanuota data</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>State</b>"
+msgstr "<b>Valstija</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Weight</b>"
+msgstr "<b>Svoris</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_innovative_main
+msgid "<b>Your Order Reference:</b>"
+msgstr "<b>Jūsų užsakymo nuoroda:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+msgid "<b>Your Reference:</b>"
+msgstr "<b>Jūsų nuoroda:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "<span class=\"text-left\">Description:</span>"
+msgstr "<span class=\"text-left\">Apibūdinimas:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "<span class=\"text-left\">Due Date:</span>"
+msgstr "<span class=\"text-left\">Mokėjimo data:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+msgid "<span class=\"text-left\">Expiration Date:</span>"
+msgstr "<span class=\"text-left\">Galiojimo laikas:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "<span class=\"text-left\">Expiration Date:</span><br/>"
+msgstr "<span class=\"text-left\">Galiojimo laikas:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "<span class=\"text-left\">Invoice Date:</span>"
+msgstr "<span class=\"text-left\">Sąskaitos data:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "<span class=\"text-left\">Order Date:</span>"
+msgstr "<span class=\"text-left\">Užsakymo data:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+msgid "<span class=\"text-left\">Payment Term:</span>"
+msgstr "<span class=\"text-left\">Mokėjimo terminas:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "<span class=\"text-left\">Payment Term:</span><br/>"
+msgstr "<span class=\"text-left\">Mokėjimo terminas:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+msgid "<span class=\"text-left\">Salesperson:</span>"
+msgstr "<span class=\"text-left\">Pardavėjas:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "<span class=\"text-left\">Salesperson:</span><br/>"
+msgstr "<span class=\"text-left\">Pardavėjas:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_elegant_main
+msgid "<span class=\"text-left\">Your Order Reference:</span><br/>"
+msgstr "<span class=\"text-left\">Jūsų užsakymo nuoroda:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_main
+msgid "<span class=\"text-left\">Your Order Reference</span>"
+msgstr "<span class=\"text-left\">Jūsų užsakymo nuoroda</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_professional_main
+msgid "<span class=\"text-left\">Your Order Reference</span><br/>"
+msgstr "<span class=\"text-left\">Jūsų užsakymo nuoroda</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+msgid "<span class=\"text-left\">Your Reference:</span>"
+msgstr "<span class=\"text-left\">Jūsų nuoroda:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "<span class=\"text-left\">Your Reference:</span><br/>"
+msgstr "<span class=\"text-left\">Jūsų nuoroda:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "<span style=\"font-weight:bold; color:#000; margin-bottom:0; text-transform:capitalize; margin-top:8px;\">Payment History</span>"
+msgstr "<span style=\"font-weight:bold; color:#000; margin-bottom:0; text-transform:capitalize; margin-top:8px;\">Mokėjimo istorija</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+msgid "<span>Delivery No # </span>"
+msgstr "<span>Pristatymo Nr # </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+msgid "<span>Delivery No # </span><br/>"
+msgstr "<span>Pristatymo Nr # </span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_innovative_header
+msgid "<span>Delivery No:</span>"
+msgstr "<span>Pristatymo Nr:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_innovative_header
+msgid "<span>Delivery Note</span>"
+msgstr "<span>Pristatymo pastaba</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+msgid "<span>Delivery To:</span>"
+msgstr "<span>Pristatyti:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<span>Picking No # </span>"
+msgstr "<span>Rinkimas Nr # </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<span>Picking No # </span><br/>"
+msgstr "<span>Rinkimas Nr # </span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_innovative_header
+msgid "<span>Picking No:</span>"
+msgstr "<span>Rinkimas Nr:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_innovative_header
+msgid "<span>Picking Operations</span>"
+msgstr "<span>Rinkimo operacijos</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "<span>Preview Template</span>"
+msgstr "<span>Peržiūrėti šabloną</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "<span>Pro-Forma Invoice # </span>"
+msgstr "<span>Išankstinė sąskaita faktūra # </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_professional_header
+msgid "<span>Pro-Forma Invoice # </span><br/>"
+msgstr "<span>Pro-Forma sąskaita faktūra # </span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+msgid "<span>Pro-Forma Invoice No: </span>"
+msgstr "<span>Pro-Forma sąskaita Nr: </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+msgid "<span>Pro-Forma Invoice</span>"
+msgstr "<span>Pro-Forma sąskaita faktūra</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_innovative_header
+msgid "<span>Purchase Order</span>"
+msgstr "<span>Pirkimo užsąkymas</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "<span>Report Extra Content</span>"
+msgstr "<span>Pranešti apie papildomą turinį</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_main
+msgid "<span>Request for Quotation # </span>"
+msgstr "<span>Prašymas dėl pasiūlymo # </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_professional_main
+msgid "<span>Request for Quotation # </span><br/>"
+msgstr "<span>Prašymas dėl pasiūlymo # </span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_innovation_header
+msgid "<span>Request for Quotation:</span>"
+msgstr "<span>Prašymas dėl pasiūlymo:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_innovation_header
+msgid "<span>Request for Quotation</span>"
+msgstr "<span>Prašymas dėl pasiūlymo</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "<span>Suggested Products</span>"
+msgstr "<span>Siūlomi produktai</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+msgid "<span>Taxes</span>"
+msgstr "<span>Mokesčiai</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong><span class=\"text-left\">Carrier</span></strong>"
+msgstr "<strong><span class=\"text-left\">Vežėjas</span></strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong><span class=\"text-left\">Carrier</span></strong><br/>"
+msgstr "<strong><span class=\"text-left\">Vežėjas</span></strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+msgid "<strong><span class=\"text-left\">Commitment Date</span></strong><br/>"
+msgstr "<strong><span class=\"text-left\">Įsipareigojimo data</span></strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong><span class=\"text-left\">Scheduled Date</span></strong>"
+msgstr "<strong><span class=\"text-left\">Suplanuota data</span></strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong><span class=\"text-left\">Scheduled Date</span></strong><br/>"
+msgstr "<strong><span class=\"text-left\">Suplanuota data</span></strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong><span class=\"text-left\">Weight</span></strong>"
+msgstr "<strong><span class=\"text-left\">Svoris</span></strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong><span class=\"text-left\">Weight</span></strong><br/>"
+msgstr "<strong><span class=\"text-left\">Svoris</span></strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_company_details
+msgid "<strong>Bank: </strong>"
+msgstr "<strong>bankas: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_notes
+msgid "<strong>Comment: </strong>"
+msgstr "<strong>Komentaras: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong>Commitment Date</strong>"
+msgstr "<strong>Įsipareigojimo data</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong>Commitment Date</strong><br/>"
+msgstr "<strong>Įsipareigojimo data</strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_warehouse_details
+msgid "<strong>Email: </strong>"
+msgstr "<strong>El. Paštas: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_customer_details
+msgid "<strong>Email:</strong>"
+msgstr "<strong>El. paštas:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_notes
+msgid "<strong>Fiscal Position Remark: </strong>"
+msgstr "<strong>Pastabos dėl fiskalinės padėties: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_notes
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr "<strong>Mokestinės aplinkos aprašymas:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_warehouse_details
+msgid "<strong>Mobile: </strong>"
+msgstr "<strong>Mobilus: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_customer_details
+msgid "<strong>Mobile:</strong>"
+msgstr "<strong>Mobilus:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_customer_details
+msgid "<strong>Mobile:</strong>+91-987-962-2024<br/>\n"
+"                <strong>Email:</strong>sales@biztechconsultancy.com"
+msgstr "<strong>Mobilus:</strong>+91-987-962-2024<br/>\n"
+"                <strong>El. Paštas:</strong>sales@biztechconsultancy.com"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong>Order (Origin)</strong>"
+msgstr "<strong>Užsakymas (susijęs)</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong>Order (Origin)</strong><br/>"
+msgstr "<strong>Užsakymas (kilmė)</strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_notes
+msgid "<strong>Payment Term: </strong>"
+msgstr "<strong>Mokėjimo terminas: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_warehouse_details
+msgid "<strong>Shipping address:</strong>"
+msgstr "<strong>Pristatymo adresas:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong>State</strong>"
+msgstr "<strong>Būsena</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong>State</strong><br/>"
+msgstr "<strong>Valstija</strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "<strong>Subtotal: </strong>"
+msgstr "<strong>Tarpinė suma: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+msgid "<strong>Vat: </strong>"
+msgstr "<strong>PVM: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_customer_details
+msgid "<strong>Vat:</strong>"
+msgstr "<strong>PVM:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+msgid "Address"
+msgstr "Adresas"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_advanced
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_advanced
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_advanced
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_advanced
+#: selection:res.company,standard_template:0
+msgid "Advanced"
+msgstr "Išplėstinė"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Amount"
+msgstr "Suma"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+msgid "Amount Due"
+msgstr "Mokėtina suma"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_append_extra_content
+msgid "Append Extra Content"
+msgstr "Pridėti papildomą turinį"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "Apple Mobile"
+msgstr "Apple Mobile"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_bank_id
+msgid "Banks"
+msgstr "Bankai"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Barcode"
+msgstr "Barkodas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_customer_details
+msgid "Biztech IT Consultancy Pvt. Ltd."
+msgstr "Biztech IT Consultancy Pvt. Ltd."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_customer_details
+msgid "C/801, Dev Aurum Commercial,\n"
+"                <br/>Prahalad Nagar, Gujarat, India.<br/>"
+msgstr "C/801, Dev Aurum Commercial,\n"
+"                <br/>Prahalad Nagar, Gujarat, India.<br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "Cancelled Invoice"
+msgstr "ATŠAUKTA SĄSKAITA"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Cancelled Invoice No:"
+msgstr "Atšauktas sąskaitos Nr:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Cancelled Invoice To:"
+msgstr "Atšaukta sąskaita faktūra:"
+
+#. module: inflow_general_template
+#: model:ir.actions.act_window,help:inflow_general_template.action_report_extracontent
+msgid "Click to create a Report append extra content."
+msgstr "Spustelėkite, jei norite sukurti ataskaitą, pridėti papildomo turinio."
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_res_company
+msgid "Companies"
+msgstr "Įmonės"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_company_id
+msgid "Company"
+msgstr "Įmonė"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_company_address_color
+msgid "Company Address Color"
+msgstr "Įmonės adresas Spalva"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_company_color
+msgid "Company Name Color"
+msgstr "Įmonės pavadinimas Spalva"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_res_partner
+msgid "Contact"
+msgstr "Kontaktas"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_contemporary
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_contemporary
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_contemporary
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_contemporary
+#: selection:res.company,standard_template:0
+msgid "Contemporary"
+msgstr "Šiuolaikinis"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_create_uid
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_create_uid
+msgid "Created by"
+msgstr "Sukūrė"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_create_date
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_create_date
+msgid "Created on"
+msgstr "Sukurta"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_creative
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_creative
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_creative
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_creative
+#: selection:res.company,standard_template:0
+msgid "Creative"
+msgstr "Kūrybingas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+msgid "Credit Amount"
+msgstr "Kredito suma"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_customer_address_color
+msgid "Customer Address Color"
+msgstr "Kliento adreso spalva"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "Customer Address:"
+msgstr "Kliento adresas:"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_customer_color
+msgid "Customer Name Color"
+msgstr "Kliento vardo spalva"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Date"
+msgstr "Data"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "Date Ordered:"
+msgstr "Užsakyta data:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+msgid "Date Req."
+msgstr "Prašymo data"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_partner_sale_order
+msgid "Default Report Settings"
+msgstr "Numatytosios ataskaitos nustatymai"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Default Template Settings"
+msgstr "Numatytasis šablono nustatymai"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+msgid "Delivery No #"
+msgstr "Pristatymo Nr #"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_incredible_header
+msgid "Delivery Note"
+msgstr "Pristatymo pastaba"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_delivery_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_delivery_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_delivery_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_delivery_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_delivery_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_delivery_template_id1
+msgid "Delivery Note Template"
+msgstr "Pristatymo pastabos šablonas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_professional_header
+msgid "Delivery Note:<br/>"
+msgstr "Pristatymo pastaba:<br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+msgid "Delivery To"
+msgstr "Pristatyti"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+msgid "Delivery to:"
+msgstr "Pristatyti:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "Description"
+msgstr "Aprašymas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Destination"
+msgstr "Pristatymo vieta"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Disc.(%)"
+msgstr "Nuolaida (%)"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_add_amount_in_words
+msgid "Display Amount In Word"
+msgstr "Rodyti kiekį žodžiu"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_show_bank_details
+msgid "Display Bank Details"
+msgstr "Rodyti banko duomenis"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_company_bold
+msgid "Display Company Name in Bold"
+msgstr "Rodomas įmonės pavadinimas paryškintas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_customer_bold
+msgid "Display Customer Name in Bold"
+msgstr "Rodyti kliento vardą paryškinti"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_display_name
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_display_name
+msgid "Display Name"
+msgstr "Vaizduojamas pavadinimas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_show_notes
+msgid "Display Notes"
+msgstr "Rodyti pastabas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_show_payment_notes
+msgid "Display Payment Notes"
+msgstr "Rodyti mokėjimo užrašus"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_description
+msgid "Display Product Description"
+msgstr "Rodyti produkto aprašymą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_add_product_image
+msgid "Display Product Image"
+msgstr "Rodyti produkto vaizdą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_show_signature
+msgid "Display Signature"
+msgstr "Rodyti parašą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark
+msgid "Display Watermark"
+msgstr "Rodyti parašą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_signature
+msgid "Display uploaded signature in PDF reports."
+msgstr "Parodykite įkeltą parašą PDF ataskaitose."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Draft Invoice"
+msgstr "SĄSKAITOS JUODRAŠTIS"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Draft Invoice To:"
+msgstr "Sąskaitos faktūros projektas:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main_header
+msgid "Duplicate"
+msgstr "Kurti kopiją"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_elegant
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_elegant
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_elegant
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_elegant
+#: selection:res.company,standard_template:0
+msgid "Elegant"
+msgstr "Elegantiškas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_footer
+msgid "Email:"
+msgstr "El. paštas:"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_exclusive
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_exclusive
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_exclusive
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_exclusive
+#: selection:res.company,standard_template:0
+msgid "Exclusive"
+msgstr "Išskirtinis"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+msgid "Expected Date"
+msgstr "Numanoma pristatymo data"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_file_name
+msgid "File name"
+msgstr "Failo pavadinimas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_font
+msgid "Font"
+msgstr "Šriftas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_name
+msgid "Font Name"
+msgstr "Šrifto pavadinimas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_family
+msgid "Font family"
+msgstr "Šrifto šeima"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_report_fonts
+msgid "Fonts available"
+msgstr "Galimos šriftai"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_text_color
+msgid "General Text Color"
+msgstr "Bendroji teksto spalva"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_id
+msgid "ID"
+msgstr "ID"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Image"
+msgstr "Vaizdas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_account_invoice_amount_to_text
+#: model:ir.model.fields,field_description:inflow_general_template.field_purchase_order_amount_to_text
+#: model:ir.model.fields,field_description:inflow_general_template.field_sale_order_amount_to_text
+msgid "In Words"
+msgstr "Žodžiuose"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_incredible
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_incredible
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_incredible
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_incredible
+#: selection:res.company,standard_template:0
+msgid "Incredible"
+msgstr "Neįtikėtinas"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_innovative
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_innovative
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_innovative
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_innovative
+#: selection:res.company,standard_template:0
+msgid "Innovative"
+msgstr "Naujoviškas"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_account_invoice
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+msgid "Invoice"
+msgstr "Sąskaita faktūra"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Invoice No:"
+msgstr "Sąskaitos Nr:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "Invoice No:<br/>"
+msgstr "Sąskaitos Nr:<br/>"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_account_invoice_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_account_invoice_report_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_template_id1
+msgid "Invoice Template"
+msgstr "Sąskaitos faktūros šablonas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Invoice To:"
+msgstr "Sąskaita faktūra į:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "Invoice to:"
+msgstr "Sąskaita faktūra į:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+msgid "Invoicing address:"
+msgstr "Sąskaitos adresas:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+msgid "Invoicing and shipping address:"
+msgstr "Sąskaitos ir pristatymo adresas:"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content___last_update
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts___last_update
+msgid "Last Modified on"
+msgstr "Paskutinį kartą keista"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_write_uid
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_write_uid
+msgid "Last Updated by"
+msgstr "Paskutinį kartą atnaujino"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_write_date
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_write_date
+msgid "Last Updated on"
+msgstr "Paskutinį kartą atnaujinta"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+msgid "Location"
+msgstr "Vieta"
+
+#. module: inflow_general_template
+#: selection:res.company,watermark:0
+msgid "Logo"
+msgstr "Logotipas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Lot"
+msgstr "Lot"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Lot/Serial Number"
+msgstr "Partijos / Serijinis numeris"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "Mackbook Pro"
+msgstr "Mackbook Pro"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Method"
+msgstr "Metodas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_mode
+msgid "Mode"
+msgstr "Režimas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_model_id
+msgid "Model"
+msgstr "Modelis"
+
+#. module: inflow_general_template
+#: sql_constraint:report.extra.content:0
+msgid "Model and Company must be unique."
+msgstr "Modelis ir kompanija turi būti unikalūs."
+
+#. module: inflow_general_template
+#: selection:res.company,report_footer_selection:0
+msgid "Multi Columns Footer"
+msgstr "Daugelis stulpelių poraštė"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+msgid "Net Price"
+msgstr "Grynoji kaina"
+
+#. module: inflow_general_template
+#: selection:res.company,report_footer_selection:0
+msgid "No Footer"
+msgstr "Nr poraštės"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "Online Bank Transfer"
+msgstr "Internetinis banko pavedimas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_professional_header
+msgid "Order #"
+msgstr "Pardavimo užsakymas nr."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "Order No:"
+msgstr "Užsakymo Nr:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "PO:"
+msgstr "PO:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "PRO-FORMA"
+msgstr "PRO-FORMA"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "PRO-FORMA No:"
+msgstr "PRO-FORM Nr:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "PRO-FORMA To:"
+msgstr "PRO FORMAT:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_footer
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Puslapis: <span class=\"page\"/> / <span class=\"topage\"/>"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_path
+msgid "Path"
+msgstr "Kelias"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Payment History"
+msgstr "Mokėjimo istorija"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Payments is Pending"
+msgstr "Mokėjimai laukia"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_footer
+msgid "Phone:"
+msgstr "Telefonas:"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_picking_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_picking_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_picking_template_id
+msgid "Picking List Template"
+msgstr "Rinkimo sąrašo šablonas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+msgid "Picking No #"
+msgstr "Rinkimas Nr #"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_incredible_header
+msgid "Picking Operations"
+msgstr "Rinkimo operacijos"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "Picking Operations:"
+msgstr "Rinkimo operacijos:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_professional_header
+msgid "Picking Operations: <br/>"
+msgstr "Rinkimo operacijos: <br/>"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_stock_picking_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_stock_picking_report_template_id1
+msgid "Picking Template"
+msgstr "Pasirinkdami šabloną"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_add_product_image
+msgid "Please check it if you want to Product Image"
+msgstr "Prašome patikrinti, ar norite įsigyti produktą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_show_bank_details
+msgid "Please check it if you want to show Bank details in PDF."
+msgstr "Patikrinkite, ar norite rodyti banko duomenis PDF formatu."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_company_bold
+msgid "Please check it if you want to show Company Name in Bold."
+msgstr "Patikrinkite, ar norite rodyti įmonės pavadinimą Bold."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_customer_bold
+msgid "Please check it if you want to show Customer Name in Bold."
+msgstr "Patikrinkite, ar norite, kad kliento vardas būtų rodomas \"Bold\"."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_show_notes
+msgid "Please check it if you want to show Invoice, Sale, Purchase Notes in pdf."
+msgstr "Patikrinkite, ar norite parodyti sąskaitą faktūrą, pardavimą, pirkimo pastabas pdf."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_show_payment_notes
+msgid "Please check it if you want to show Payment Notes in pdf."
+msgstr "Patikrinkite, ar norite matyti mokėjimo pdf formatu."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_description
+msgid "Please check it if you want to show product description in report."
+msgstr "Patikrinkite, ar ataskaitoje norite parodyti produkto aprašymą."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_show_signature
+msgid "Please check it if you want to show signature in PDF."
+msgstr "Patikrinkite, ar norite parašyti PDF formatu."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Please click here if you want to get all the fonts of your system. After click please reload the page."
+msgstr "Jei norite gauti visus savo sistemos šriftus, spauskite čia. Po paspaudimo iš naujo įkelkite puslapį."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_watermark_text
+msgid "Please enter watermark text"
+msgstr "Įveskite vandens ženklo tekstą"
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/res_company.py:395
+#, python-format
+msgid "Please input font size is greater than 10 and lower than 25, otherwise your report will very massive."
+msgstr "Prašau įvesties šrifto dydį yra didesnis nei 10 ir mažesnis nei 25, kitaip jūsų ataskaita bus labai didelė."
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/res_company.py:397
+#, python-format
+msgid "Please input watermark text font size is greater than 0 and lower than 10, otherwise your report will very massive."
+msgstr "Įveskite vandens ženklo teksto šrifto dydį yra didesnis nei 0 ir mažesnis nei 10, kitaip jūsų ataskaita bus labai didelė."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_delivery_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_delivery_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_delivery_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_delivery_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_delivery_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_delivery_template_id1
+msgid "Please select Template report for Delivery Note "
+msgstr "Pasirinkite pristatymo užrašo šablono ataskaitą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_account_invoice_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_account_invoice_report_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_template_id1
+msgid "Please select Template report for Invoice"
+msgstr "Pasirinkite sąskaitos faktūros šablono ataskaitą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_stock_picking_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_stock_picking_report_template_id1
+msgid "Please select Template report for Picking"
+msgstr "Pasirinkite Pasirinkimo šablono ataskaitą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_picking_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_picking_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_picking_template_id
+msgid "Please select Template report for Picking List"
+msgstr "Pasirinkite pasirinkimo sąrašo šablonų ataskaitą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_purchase_order_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_purchase_order_report_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_po_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_po_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_po_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_po_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_po_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_po_template_id1
+msgid "Please select Template report for Purchase Order"
+msgstr "Pasirinkite pirkimo užsakymo šablono ataskaitą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_rfq_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_rfq_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_rfq_template_id
+msgid "Please select Template report for RFQ"
+msgstr "Pasirinkite raktinių žodžių šablonų ataskaitą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_sale_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_sale_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_sale_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_sale_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_sale_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_sale_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_sale_order_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_sale_order_report_template_id1
+msgid "Please select Template report for Sale Order"
+msgstr "Pasirinkite Pardavimų užsakymo šablonų ataskaitą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_standard_template
+msgid "Please select your choice Standard Color Configuration for all Template."
+msgstr "Prašome pasirinkti savo pasirinkimą Standartinė spalvų konfigūracija visiems šablonams."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_logo_footer
+msgid "Please set Footer Logo for Report."
+msgstr "Nustatykite apatinio logotipo ataskaitą."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_company_address_color
+msgid "Please set Hex color for Company Address."
+msgstr "Nurodykite šešioliktainę spalvą įmonės adresui."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_company_color
+msgid "Please set Hex color for Company Name."
+msgstr "Nurodykite Hex spalvą įmonės pavadinimui."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_customer_address_color
+msgid "Please set Hex color for Customer Address."
+msgstr "Nurodykite Hex spalvą kliento adresui."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_customer_color
+msgid "Please set Hex color for Customer Name."
+msgstr "Nurodykite Hex spalvą kliento vardui."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_text_color
+msgid "Please set Hex color for General Text."
+msgstr "Nustatykite šešioliktainį spalvą bendram tekstui."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_even_party_color
+msgid "Please set Hex color for Table Even Parity."
+msgstr "Nustatykite šešioliktainį spalvą lentelės neto porcijai."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_odd_party_color
+msgid "Please set Hex color for Table Odd Parity."
+msgstr "Nustatykite šešioliktainį spalvą lentelės nelyginiam paritetui."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_theme_text_color
+msgid "Please set Hex color for Template Text."
+msgstr "Nustatykite šablono tekstą Hex spalvą."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_theme_color
+msgid "Please set Hex color for Template."
+msgstr "Nustatykite Hex spalvą šablonui."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_watermark_text_color
+msgid "Please set Hex color for Watermark text."
+msgstr "Nustatykite šešių spalvų vandenženklio tekstą."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_watermark_logo
+msgid "Please set Watermark Logo for Report."
+msgstr "Nurodykite vandens ženklo logotipą."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_add_amount_in_words
+msgid "Please unchecked if you want to hide amount in words"
+msgstr "Prašome panaikinti, jei norite paslėpti sumą žodžiais"
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/report_extra_content.py:31
+#, python-format
+msgid "Please upload pdf file only"
+msgstr "Prašome įkelti tik pdf failą"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_demo_template
+msgid "Preview Template"
+msgstr "Peržiūrėti šabloną"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Price"
+msgstr "Suma"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "Product"
+msgstr "Produktas"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_professional
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_professional
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_professional
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_professional
+#: selection:res.company,standard_template:0
+msgid "Professional"
+msgstr "Profesionalus"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_purchase_order
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_advanced_header
+msgid "Purchase Order"
+msgstr "Pirkimo užsakymas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_innovative_header
+msgid "Purchase Order  Confirmation:"
+msgstr "Pirkimo užsakymo patvirtinimas:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+msgid "Purchase Order Confirmation #"
+msgstr "Pirkimo užsakymo patvirtinimas *"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_po_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_po_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_po_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_po_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_po_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_po_template_id1
+msgid "Purchase Order Template"
+msgstr "Pirkimo užsakymo šablonas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_professional_header
+msgid "Purchase Order:<br/>"
+msgstr "Pirkimo užsąkymas:<br/>"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_purchase_order_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_purchase_order_report_template_id1
+msgid "Purchase Template"
+msgstr "Pirkimo šablonas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+msgid "Qty"
+msgstr "Kiekis"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Quantity"
+msgstr "Kiekis"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_sale_order
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "Quotation"
+msgstr "Pasiūlymas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_professional_header
+msgid "Quotation #"
+msgstr "Komercinis pasiūlymas nr."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "Quotation Date:"
+msgstr "Citatos data:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "Quotation No:"
+msgstr "Citata Nr:"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_sale_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_sale_template_id1
+msgid "Quotation/Order Template"
+msgstr "Citata/Užsakymo šablonas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_rfq_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_rfq_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_rfq_template_id
+msgid "RFQ Template"
+msgstr "RFQ šablonas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Ref."
+msgstr "Nuoroda"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "Refund"
+msgstr "Grąžinimas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Refund No:"
+msgstr "Grąžinimo Nr:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Refund To:"
+msgstr "Grąžinamas į:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_partner_sale_order
+msgid "Report Configuration"
+msgstr "Ataskaitos konfigūravimas"
+
+#. module: inflow_general_template
+#: model:ir.actions.act_window,name:inflow_general_template.action_report_extracontent
+msgid "Report Extra Content"
+msgstr "Pranešti apie papildomą turinį"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Report Font"
+msgstr "Pranešti apie šriftą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_font_size
+msgid "Report Font Size(px)"
+msgstr "Pranešti apie šrifto dydį (px)"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Report Footer"
+msgstr "Pranešti apie poraštę"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_logo_footer
+msgid "Report Footer Logo"
+msgstr "Pranešti apie poražo logotipą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_invoice_logo
+msgid "Report Logo"
+msgstr "Pranešti apie logotipą"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark_logo
+msgid "Report Watermark Logo"
+msgstr "Pranešti apie vandenženklio logotipą"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Report font"
+msgstr "Pranešimo šriftas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_footer_selection
+msgid "Report footer"
+msgstr "Pranešti apie poraštę"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_advanced_header
+msgid "Request for Quotation"
+msgstr "Kainos paklausimas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+msgid "Request for Quotation #"
+msgstr "Kainos paklausimas #"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_innovative_header
+msgid "Request for Quotation:"
+msgstr "Prašymas dėl pasiūlymo:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_professional_header
+msgid "Request for Quotation: <br/>"
+msgstr "Prašymas dėl pasiūlymo: <br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "SO/124/4567"
+msgstr "SO/124/4567"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "SO:"
+msgstr "SO:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "Sale Order"
+msgstr "Pardavimo užsakymas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_sale_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_sale_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_sale_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_sale_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_sale_order_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_sale_order_report_template_id1
+msgid "Sale Order Template"
+msgstr "Pardavimo užsakymo šablonas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_footer_selection
+msgid "Select footer style if you want to show in report"
+msgstr "Pasirinkite poraštės stilių, jei norite rodyti ataskaitoje"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+msgid "Serial Number"
+msgstr "Serijos numeris"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_font
+msgid "Set the font into the report header, it will be used as default font in the clever reports of the user company"
+msgstr "Nustatykite šriftą į ataskaitos antraštę, ji bus naudojama kaip numatytasis šriftas vartotojo įmonės protingose ataskaitose"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_signature
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Signature"
+msgstr "Parašas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Source"
+msgstr "Šaltinis"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "Sr."
+msgstr "Serijinis"
+
+#. module: inflow_general_template
+#: selection:res.company,report_footer_selection:0
+msgid "Standard"
+msgstr "Standartinis"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_standard_template
+msgid "Standard Template Configuration"
+msgstr "Standartinės šablono konfigūracija"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: selection:res.company,watermark:0
+msgid "Status"
+msgstr "Būsena"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "SubTotal"
+msgstr "Tarpinė suma"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_even_party_color
+msgid "Table Even Parity Color"
+msgstr "Lentelė net lygumo spalva"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_odd_party_color
+msgid "Table Odd Parity Color"
+msgstr "Stalo nelygios pariteto spalva"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Taxes"
+msgstr "Mokesčiai"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_theme_color
+msgid "Template Base Color"
+msgstr "Šablono bazinė spalva"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_theme_text_color
+msgid "Template Text Color"
+msgstr "Šablono teksto spalva"
+
+#. module: inflow_general_template
+#: selection:res.company,watermark:0
+msgid "Text"
+msgstr "Tekstas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_account_invoice_amount_to_text
+#: model:ir.model.fields,help:inflow_general_template.field_purchase_order_amount_to_text
+#: model:ir.model.fields,help:inflow_general_template.field_sale_order_amount_to_text
+msgid "The amount in words"
+msgstr "Suma žodžiais"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_invoice_logo
+msgid "This field holds the image used as Logo for Invoice template report"
+msgstr "Šiame lauke yra paveikslėlis, naudojamas kaip logotipas sąskaitų faktūrų šablono ataskaitai"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.template_total_amount_word
+msgid "Total in word:-"
+msgstr "Iš viso žodžiu:-"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_stock_picking
+msgid "Transfer"
+msgstr "Pervesti"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "Unit Price"
+msgstr "Kaina"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "Vendor Address:"
+msgstr "Pardavėjo adresas:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "Vendor Bill"
+msgstr "Pardavėjo sąskaita"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Vendor Bill No:"
+msgstr "Pardavėjo sąskaitos numeris:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Vendor Bill To:"
+msgstr "Tiekėjo sąskaita:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "Vendor Refund"
+msgstr "Pardavėjo grąžinamoji išmoka"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Vendor Refund No:"
+msgstr "Pardavėjo grąžinimo Nr:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Vendor Refund To:"
+msgstr "Pardavėjo grąžinamoji išmoka:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "Warehouse Address:"
+msgstr "Sandėlio adresas:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Watermark"
+msgstr "Vandens ženklas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark_text
+msgid "Watermark Text"
+msgstr "Vandens ženklas tekstas"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark_text_color
+msgid "Watermark Text Color"
+msgstr "Vandens ženklo teksto spalva"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark_text_font_size
+msgid "Watermark Text Font Size(em)"
+msgstr "Vandens ženklo teksto šrifto dydis (em)"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_watermark
+msgid "We can choose watermark for pdf either logo or text or status."
+msgstr "Mes galime pasirinkti vandenženklį pdf ar logotipo, ar teksto ar statuso."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_footer
+msgid "Web:"
+msgstr "Tinklalapis:"
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/ir_actions_report.py:83
+#, python-format
+msgid "Wkhtmltopdf failed (error code: %s). Memory limit too low or maximum file number of subprocess reached. Message : %s"
+msgstr "Wkhtmltopdf nepavyko (klaidos kodas: %s). Atminties riba yra per žema arba pasiekiamas didžiausias pogrupio failo numeris. Žinutė: %s"
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/ir_actions_report.py:86
+#, python-format
+msgid "Wkhtmltopdf failed (error code: %s). Message: %s"
+msgstr "Wkhtmltopdf nepavyko (klaidos kodas: %s). Pranešimas: %s"
+
+#. module: inflow_general_template
+#: model:ir.actions.act_window,help:inflow_general_template.action_report_extracontent
+msgid "You can append extra content while print report based on model\n"
+"                for eg. if you want to add brochure, while print Quotation."
+msgstr "Galite pridėti papildomą turinį spausdindami ataskaitą pagal modelį\n"
+"                pvz. jei norite pridėti brošiūrą, o spausdindami citatą."
+
+#. module: inflow_general_template
+#: sql_constraint:report.fonts:0
+msgid "You can not register two fonts with the same name"
+msgstr "Negalite užregistruoti dviejų šriftų su tuo pačiu pavadinimu"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "You do not have any products reserved for this picking.  Please click the 'Reserve' button\n"
+"                                                to check if products are available."
+msgstr "Jūs neturite produktų, skirtų šiam rinkimui. Spustelėkite mygtuką 'Rezervuoti'\n"
+"                                                patikrinti, ar produktai yra prieinami."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "amount"
+msgstr "suma"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "date"
+msgstr "data"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_ir_actions_report
+msgid "ir.actions.report"
+msgstr "ir.actions.report"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #2763a1"
+msgstr "like #2763a1"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #2763c1"
+msgstr "like #2763c1"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #5bb3d2"
+msgstr "like #5bb3d2"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #5cc2d2"
+msgstr "like #5cc2d2"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #DAF7A6"
+msgstr "like #DAF7A6"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #aea8a8"
+msgstr "like #aea8a8"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #aea8aa"
+msgstr "like #aea8aa"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #b30000"
+msgstr "like #b30000"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #b30010"
+msgstr "like #b30010"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #d4d2d2"
+msgstr "like #d4d2d2"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "method"
+msgstr "metodas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "quantity"
+msgstr "kiekis"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "ref."
+msgstr "nuoroda"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_report_extra_content
+msgid "report.extra.content"
+msgstr "report.extra.content"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "sr."
+msgstr "Serijinis"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "taxes"
+msgstr "mokesčiai"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "total"
+msgstr "Iš viso"
+

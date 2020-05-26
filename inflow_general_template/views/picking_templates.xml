@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="picking_templates_order_lines">
+        <table cellpadding="0" cellspacing="0" class="table" style="border:0.5px solid #ccc;  border-collapse: collapse; padding:15px; border-bottom:1px solid #ccc;" t-if="o.move_line_ids" width="100%">
+            <t t-set="has_barcode" t-value="any([move_lines.product_id and move_lines.product_id.sudo().barcode or move_lines.package_id for move_lines in o.move_line_ids])"/>
+            <t groups="stock.group_production_lot" t-set="has_serial_number" t-value="o.move_line_ids.filtered(lambda ml: ml.lot_id or ml.lot_name)"/>
+            <thead>
+                <tr t-attf-style="page-break-inside: avoid !important;background-color: #{theme_color or '#000000'}; color: #{theme_text_color or '#000000'};">
+                    <td align="center" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="8%">Sr.</td>
+                    <t t-if="o.company_id.add_product_image == True">
+                        <td align="left" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="15%">Image</td>
+                    </t>
+                    <td align="center" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="20%">Product</td>
+                    <td align="right" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="20%">Quantity</td>
+                    <td align="center" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" t-if="has_barcode" width="15%">
+                        <t t-if="has_barcode">Barcode</t>
+                    </td>
+                    <td align="right" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" t-if="o.picking_type_id.code != 'incoming'" width="15%">
+                        <t align="left" t-if="o.picking_type_id.code != 'incoming'">Source</t>
+                    </td>
+                    <td align="center" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" t-if="has_serial_number" width="20%">
+                        <t t-if="has_serial_number">Lot/Serial Number</t>
+                    </td>
+                    <td align="right" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="15%">Destination</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr t-as="move" t-foreach="o.move_lines.sorted(key=lambda m: m.product_id.id)">
+                    <t t-if="move_odd">
+                        <t t-set="mv_color" t-value="o.company_id.even_party_color"/>
+                    </t>
+                    <t t-if="move_even">
+                        <t t-set="mv_color" t-value="o.company_id.odd_party_color"/>
+                    </t>
+                    <tr t-att-style="'page-break-inside: avoid !important;background-color: '+ mv_color + '; color: ' + text_color">
+                        <td align="left" class="text-center" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-esc="move_index+1"/>
+                        </td>
+                        <t t-if="o.company_id.add_product_image == True">
+                            <td class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                                <span t-field="move.product_id.image_small" t-options="{&quot;widget&quot;:&quot;image&quot;,&quot;class&quot;:&quot;img-rounded&quot;}"/>
+                            </td>
+                        </t>
+                        <td align="left" class="text-center" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-field="move.product_id.display_name"/><br/>
+                            <span t-field="move.product_id.description_picking"/>
+                        </td>
+                        <td align="right" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-esc="move.product_qty" t-if="move.product_qty"/>
+                            <span t-esc="move.product_uom._compute_quantity(move.quantity_done, move.product_id.uom_id, rounding_method='HALF-UP')" t-if="not move.product_qty"/>
+                            <span groups="product.group_uom" t-field="move.product_id.uom_id"/>
+                        </td>
+                        <td align="center" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'" t-if="has_barcode">
+                            <span t-if="move.product_id and move.product_id.barcode">
+                                <img style="width:100%;height:50px" t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('Code128', move.product_id.barcode, 600, 100)"/>
+                            </span>
+                        </td>
+                        <t t-if="move.move_line_ids">
+                            <t t-as="ml" t-foreach="move.move_line_ids.sorted(key=lambda ml: ml.location_id.id)">
+                                <td align="center" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'" t-if="o.picking_type_id.code != 'incoming'">
+                                    <t t-if="o.picking_type_id.code != 'incoming'">
+                                        <span t-esc="ml.location_id.display_name"/>
+                                    </t>
+                                </td>
+                                <td align="center" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'" t-if="has_serial_number and ml.product_id.tracking != 'none'">
+                                    <table class="table table-condensed" t-if="has_serial_number and ml.product_id.tracking != 'none'">
+                                        <thead>
+                                            <tr>
+                                                <th>Lot</th>
+                                                <th>Qty</th>
+                                            </tr>
+                                        </thead>
+                                        <tr class="text-center">
+                                            <td>
+                                                <span t-field="ml.lot_id"/>
+                                                <span t-field="ml.lot_name" t-if="not ml.lot_id"/>
+                                            </td>
+                                            <td>
+                                                <span t-field="ml.qty_done"/>
+                                                <t t-if="o.state!='done'">/ 
+                                                    <span t-field="ml.product_uom_qty"/></t>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td align="center" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                                    <div>
+                                        <span t-field="ml.location_dest_id"/>
+                                    </div>
+                                    <div t-if="ml.result_package_id or ml.result_package_id">
+                                        <span t-field="ml.package_id"/>
+                                        <span class="fa fa-dropbox" t-if="ml.result_package_id and not ml.package_id"/>
+                                        <span t-if="ml.result_package_id and ml.package_id">→</span>
+                                        <span t-field="ml.result_package_id"/>
+                                    </div>
+                                </td>
+                            </t>
+                        </t>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+    </template>
+
+    <template id="delivery_note_templates_order_line">
+        <table cellpadding="0" cellspacing="0" class="table" style="border:0.5px solid #ccc;  border-collapse: collapse; padding:15px; border-bottom:1px solid #ccc;" t-if="not o.move_line_ids" width="100%">
+            <thead>
+                <tr t-attf-style="page-break-inside: avoid !important;background-color: #{theme_color or '#000000'}; color: #{theme_text_color or '#000000'};">
+                    <td align="center" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="8%">Sr.</td>
+                    <td align="left" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="52%">Product</td>
+                    <td align="right" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="14%">Status</td>
+                    <td align="right" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="15%">Location</td>
+                    <td align="right" t-attf-style="padding:5px 10px; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="20%">Quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                <t t-as="move" t-foreach="o.move_lines">
+                    <t t-if="move_odd">
+                        <t t-set="mv_color" t-value="o.company_id.even_party_color"/>
+                    </t>
+                    <t t-if="move_even">
+                        <t t-set="mv_color" t-value="o.company_id.odd_party_color"/>
+                    </t>
+                    <tr t-att-style="'page-break-inside: avoid !important;background-color: '+ mv_color + '; color: '+ text_color ">
+                        <td align="left" class="text-center" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-esc="move_index+1"/>
+                        </td>
+                        <td align="left" class="text-left" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-field="move.product_id and move.product_id.name"/>
+                        </td>
+                        <td align="center" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-field="move.state"/>
+                        </td>
+                        <td align="center" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-field="move.location_id"/>
+                        </td>
+                        <td align="right" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-field="move.product_uom_qty"/>
+                            <span t-field="move.product_uom"/>
+                        </td>
+                    </tr>
+                </t>
+            </tbody>
+        </table>
+        <table cellpadding="0" cellspacing="0" class="table" style="border:0.5px solid #ccc;  border-collapse: collapse; padding:15px; border-bottom:1px solid #ccc;" t-if="o.move_line_ids" width="100%">
+            <t groups="stock.group_production_lot" t-set="has_serial_number" t-value="o.move_line_ids.mapped('lot_id')"/>
+            <thead>
+                <tr t-attf-style="page-break-inside: avoid !important;background-color: #{theme_color or '#000000'}; color: #{theme_text_color or '#000000'};">
+                    <td align="center" t-attf-style="padding:5px 10px; color: #{theme_text_color or '#000000'}; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="8%">Sr.</td>
+                    <t t-if="o.company_id.add_product_image == True">
+                        <td align="left" t-attf-style="padding:5px 10px; color: #{theme_text_color or '#000000'}; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="10%">Image</td>
+                    </t>
+                    <td align="left" t-attf-style="padding:5px 10px; color: #{theme_text_color or '#000000'}; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="52%">Product</td>
+                    <td align="right" t-attf-style="padding:5px 10px; color: #{theme_text_color or '#000000'}; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" t-if="has_serial_number" width="20%">Serial Number</td>
+                    <td align="right" t-attf-style="padding:5px 10px; color: #{theme_text_color or '#000000'}; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="14%">Status</td>
+                    <td align="right" t-attf-style="padding:5px 10px; color: #{theme_text_color or '#000000'}; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="15%">Location</td>
+                    <td align="right" t-attf-style="padding:5px 10px; color: #{theme_text_color or '#000000'}; border:1px solid #{theme_color or '#000000'} !important; border-right:0px solid #{theme_color or '#000000'} !important; font-weight:bold;" width="20%">Quantity</td>
+                </tr>
+            </thead>
+            <tbody>
+                <t t-as="pack_operation" t-foreach="o.move_line_ids">
+                    <t t-if="pack_operation_odd">
+                        <t t-set="po_color" t-value="o.company_id.even_party_color"/>
+                    </t>
+                    <t t-if="pack_operation_even">
+                        <t t-set="po_color" t-value="o.company_id.odd_party_color"/>
+                    </t>
+                    <tr t-att-style="'page-break-inside: avoid !important;background-color: '+ po_color + '; color: ' + text_color ">
+                        <td align="left" class="text-center" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-esc="pack_operation_index+1"/>
+                        </td>
+                        <t t-if="o.company_id.add_product_image == True">
+                            <td class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                                <span t-field="pack_operation.product_id.image_small" t-options="{&quot;widget&quot;:&quot;image&quot;,&quot;class&quot;:&quot;img-rounded&quot;}"/>
+                            </td>
+                        </t>
+                        <td align="left" class="text-left" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-field="pack_operation.product_id"/>
+                            <t t-if="not pack_operation.product_id and pack_operation.package_id">
+                                <span t-field="pack_operation.package_id"/>
+                            </t>
+                        </td>
+                        <t t-if="has_serial_number">
+                            <td align="left" class="text-left" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'" >
+                                <table class="table table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th>Lot</th>
+                                            <th>Qty</th>
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td>
+                                            <span t-field="pack_operation.lot_id"/>
+                                            <t t-if="not pack_operation.lot_id">
+                                                <span t-field="pack_operation.lot_id.name"/>
+                                            </t>
+                                        </td>
+                                        <td>
+                                            <t t-if="pack_operation.lot_id.product_qty">
+                                                <span t-field="pack_operation.lot_id.product_qty"/>
+                                            </t>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td t-if="not pack_operation.pack_lot_ids"/>
+                        </t>
+                        <td align="center" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <t t-set="mls" t-value="pack_operation.picking_id.move_lines"/>
+                            <t t-set="check" t-value="True"/>
+                            <t t-as="ml" t-foreach="mls">
+                                <t t-if="ml.product_id.id == pack_operation.product_id.id and check">
+                                    <t t-set="check" t-value="False"/>
+                                    <span t-field="ml.state"/>
+                                </t>
+                            </t>
+                        </td>
+                        <td align="center" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-field="pack_operation.location_id"/>
+                            <span t-if="pack_operation.package_id">:</span>
+                            <span t-field="pack_operation.package_id"/>
+                        </td>
+                        <td align="right" class="text-right" t-att-style="'padding:5px 10px; border:0.5px solid #ccc !important; border-right:0px solid #ccc !important;'">
+                            <span t-field="pack_operation.package_id"/>
+                            <span t-if="pack_operation.package_id">:</span>
+                            <span t-field="pack_operation.ordered_qty"/>
+                            <span t-field="pack_operation.product_uom_id"/>
+                        </td>
+                    </tr>
+                </t>
+            </tbody>
+        </table>
+    </template>
+
+</odoo>

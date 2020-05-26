@@ -1,0 +1,2440 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* inflow_general_template
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-07 12:52+0000\n"
+"PO-Revision-Date: 2018-06-07 12:52+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "% discount"
+msgstr "% descuento"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "&amp;bull;"
+msgstr "&amp;bull;"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "(reload fonts)"
+msgstr "(recarga fuentes)"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "01 February, 2016"
+msgstr "01 de febrero de 2016"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "10 March, 2016"
+msgstr "10 de marzo de 2016"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "1000.00"
+msgstr "1000.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "123456789135"
+msgstr "123456789135"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "15 March, 2016"
+msgstr "15 de marzo de 2016"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "1500.00"
+msgstr "1500.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "1900.00"
+msgstr "1900.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "1950.00"
+msgstr "1950.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "20 March, 2016"
+msgstr "20 de marzo de 2016"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "4569896347"
+msgstr "4569896347"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "5.00%"
+msgstr "5.00%"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "50.00"
+msgstr "50.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "500.00"
+msgstr "500.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "900.00"
+msgstr "900.00"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+msgid "<b style=\"padding:10px 15px 10px 0px;\">Invoice No:</b><br/>"
+msgstr "<b style=\"padding:10px 15px 10px 0px;\">Factura no:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "<b style=\"padding:10px 15px;\">Invoice No:</b><br/>"
+msgstr "<b style=\"padding:10px 15px;\">Factura no:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+msgid "<b><span>Salesperson:</span></b>"
+msgstr "<b><span>Vendedor:</span></b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_customer_details
+msgid "<b>Biztech IT Consultancy Pvt. Ltd.</b>"
+msgstr "<b>Biztech IT Consultancy Pvt. Ltd.</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Carrier</b>"
+msgstr "<b>Portador</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "<b>Comment:</b>We are a highly qualified team of well-rounded software"
+msgstr "<b>Comentario:</b>Somos un equipo altamente calificado de software completo"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Commitment Date</b>"
+msgstr "<b>Fecha de compromiso</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Description:</b>"
+msgstr "<b>Descripción:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+msgid "<b>Description:</b><br/>"
+msgstr "<b>Descripción:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Due Date:</b>"
+msgstr "<b>Fecha de vencimiento:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+msgid "<b>Due Date:</b><br/>"
+msgstr "<b>Fecha de vencimiento:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+msgid "<b>Expiration Date:</b>"
+msgstr "<b>Fecha de caducidad:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "<b>Fiscal Position Remark:</b>20% VAT applies to all Electronic Devices"
+msgstr "<b>Observación de la posición fiscal:</b>20% de IVA se aplica a todos los dispositivos electrónicos"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Invoice Date:</b>"
+msgstr "<b>Fecha de la factura:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+msgid "<b>Invoice Date:</b><br/>"
+msgstr "<b>Fecha de la factura:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+msgid "<b>Invoice No:</b><br/>"
+msgstr "<b>Factura no:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Order (Origin):</b>"
+msgstr "<b>Orden (Origen):</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+msgid "<b>Order (Origin)</b>"
+msgstr "<b>Orden (Origen)</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Order Date:</b>"
+msgstr "<b>Fecha de orden:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+msgid "<b>Order Date:</b><br/>"
+msgstr "<b>Fecha de orden:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+msgid "<b>PO:</b>"
+msgstr "<b>PO:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "<b>PO:</b><br/>"
+msgstr "<b>PO:</b><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+msgid "<b>Payment Term:</b>"
+msgstr "<b>Plazo de pago:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "<b>Payment Term:</b>30 Days"
+msgstr "<b>Plazo de pago:</b>30 dias"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+msgid "<b>Payment is Pending</b>"
+msgstr "<b>El pago está pendiente</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Scheduled Date</b>"
+msgstr "<b>Cita agendada</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>State</b>"
+msgstr "<b>Estado</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+msgid "<b>Weight</b>"
+msgstr "<b>Peso</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_innovative_main
+msgid "<b>Your Order Reference:</b>"
+msgstr "<b>Su referencia de orden:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+msgid "<b>Your Reference:</b>"
+msgstr "<b>Tu referencia:</b>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "<span class=\"text-left\">Description:</span>"
+msgstr "<span class=\"text-left\">Descripción:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "<span class=\"text-left\">Due Date:</span>"
+msgstr "<span class=\"text-left\">Fecha de vencimiento:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+msgid "<span class=\"text-left\">Expiration Date:</span>"
+msgstr "<span class=\"text-left\">Fecha de caducidad:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "<span class=\"text-left\">Expiration Date:</span><br/>"
+msgstr "<span class=\"text-left\">Fecha de caducidad:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "<span class=\"text-left\">Invoice Date:</span>"
+msgstr "<span class=\"text-left\">Fecha de la factura:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "<span class=\"text-left\">Order Date:</span>"
+msgstr "<span class=\"text-left\">Fecha de orden:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+msgid "<span class=\"text-left\">Payment Term:</span>"
+msgstr "<span class=\"text-left\">Plazo de pago:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "<span class=\"text-left\">Payment Term:</span><br/>"
+msgstr "<span class=\"text-left\">Plazo de pago:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+msgid "<span class=\"text-left\">Salesperson:</span>"
+msgstr "<span class=\"text-left\">Vendedor:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "<span class=\"text-left\">Salesperson:</span><br/>"
+msgstr "<span class=\"text-left\">Vendedor:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_elegant_main
+msgid "<span class=\"text-left\">Your Order Reference:</span><br/>"
+msgstr "<span class=\"text-left\">Su referencia de orden:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_main
+msgid "<span class=\"text-left\">Your Order Reference</span>"
+msgstr "<span class=\"text-left\">Su referencia de orden</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_professional_main
+msgid "<span class=\"text-left\">Your Order Reference</span><br/>"
+msgstr "<span class=\"text-left\">Su referencia de orden</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+msgid "<span class=\"text-left\">Your Reference:</span>"
+msgstr "<span class=\"text-left\">Tu referencia:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "<span class=\"text-left\">Your Reference:</span><br/>"
+msgstr "<span class=\"text-left\">Tu referencia:</span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "<span style=\"font-weight:bold; color:#000; margin-bottom:0; text-transform:capitalize; margin-top:8px;\">Payment History</span>"
+msgstr "<span style=\"font-weight:bold; color:#000; margin-bottom:0; text-transform:capitalize; margin-top:8px;\">historial de pagos</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+msgid "<span>Delivery No # </span>"
+msgstr "<span>Sin entrega # </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+msgid "<span>Delivery No # </span><br/>"
+msgstr "<span>Sin entrega # </span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_innovative_header
+msgid "<span>Delivery No:</span>"
+msgstr "<span>Sin entrega:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_innovative_header
+msgid "<span>Delivery Note</span>"
+msgstr "<span>Nota de entrega</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_innovative_main
+msgid "<span>Delivery To:</span>"
+msgstr "<span>Entregar a:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<span>Picking No # </span>"
+msgstr "<span>Escogiendo No # </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<span>Picking No # </span><br/>"
+msgstr "<span>Escogiendo No # </span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_innovative_header
+msgid "<span>Picking No:</span>"
+msgstr "<span>Escogiendo No:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_innovative_header
+msgid "<span>Picking Operations</span>"
+msgstr "<span>Operaciones de picking</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "<span>Preview Template</span>"
+msgstr "<span>Plantilla de vista previa</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "<span>Pro-Forma Invoice # </span>"
+msgstr "<span>Factura Proforma # </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_professional_header
+msgid "<span>Pro-Forma Invoice # </span><br/>"
+msgstr "<span>Factura de proforma # </span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+msgid "<span>Pro-Forma Invoice No: </span>"
+msgstr "<span>Factura Pro-Forma No: </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+msgid "<span>Pro-Forma Invoice</span>"
+msgstr "<span>Factura de proforma</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_innovative_header
+msgid "<span>Purchase Order</span>"
+msgstr "<span>Orden de compra</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "<span>Report Extra Content</span>"
+msgstr "<span>Informar contenido extra</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_main
+msgid "<span>Request for Quotation # </span>"
+msgstr "<span>Solicitud de presupuesto # </span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_professional_main
+msgid "<span>Request for Quotation # </span><br/>"
+msgstr "<span>Solicitud de presupuesto # </span><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_innovation_header
+msgid "<span>Request for Quotation:</span>"
+msgstr "<span>Solicitud de presupuesto:</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_innovation_header
+msgid "<span>Request for Quotation</span>"
+msgstr "<span>Solicitud de presupuesto</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "<span>Suggested Products</span>"
+msgstr "<span>Productos Sugeridos</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+msgid "<span>Taxes</span>"
+msgstr "<span>Impuestos</span>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong><span class=\"text-left\">Carrier</span></strong>"
+msgstr "<strong><span class=\"text-left\">Portador</span></strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong><span class=\"text-left\">Carrier</span></strong><br/>"
+msgstr "<strong><span class=\"text-left\">Portador</span></strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+msgid "<strong><span class=\"text-left\">Commitment Date</span></strong><br/>"
+msgstr "<strong><span class=\"text-left\">Fecha de compromiso</span></strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong><span class=\"text-left\">Scheduled Date</span></strong>"
+msgstr "<strong><span class=\"text-left\">Cita agendada</span></strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong><span class=\"text-left\">Scheduled Date</span></strong><br/>"
+msgstr "<strong><span class=\"text-left\">Cita agendada</span></strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong><span class=\"text-left\">Weight</span></strong>"
+msgstr "<strong><span class=\"text-left\">Peso</span></strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong><span class=\"text-left\">Weight</span></strong><br/>"
+msgstr "<strong><span class=\"text-left\">Peso</span></strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_company_details
+msgid "<strong>Bank: </strong>"
+msgstr "<strong>Banco: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_notes
+msgid "<strong>Comment: </strong>"
+msgstr "<strong>Comentario: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong>Commitment Date</strong>"
+msgstr "<strong>Fecha de compromiso</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong>Commitment Date</strong><br/>"
+msgstr "<strong>Fecha de compromiso</strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_warehouse_details
+msgid "<strong>Email: </strong>"
+msgstr "<strong>Correo electrónico: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_customer_details
+msgid "<strong>Email:</strong>"
+msgstr "<strong>Correo electrónico:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_notes
+msgid "<strong>Fiscal Position Remark: </strong>"
+msgstr "<strong>Observación de la posición fiscal: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_notes
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr "<strong>Posición Fiscal:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_warehouse_details
+msgid "<strong>Mobile: </strong>"
+msgstr "<strong>Móvil: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_customer_details
+msgid "<strong>Mobile:</strong>"
+msgstr "<strong>Móvil:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_customer_details
+msgid "<strong>Mobile:</strong>+91-987-962-2024<br/>\n"
+"                <strong>Email:</strong>sales@biztechconsultancy.com"
+msgstr "<strong>Móvil:</strong>+91-987-962-2024<br/>\n"
+"                <strong>Correo electrónico:</strong>sales@biztechconsultancy.com"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong>Order (Origin)</strong>"
+msgstr "<strong>Orden (Origen)</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong>Order (Origin)</strong><br/>"
+msgstr "<strong>Orden (Origen)</strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_notes
+msgid "<strong>Payment Term: </strong>"
+msgstr "<strong>Plazo de pago: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_warehouse_details
+msgid "<strong>Shipping address:</strong>"
+msgstr "<strong>Dirección de envío</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+msgid "<strong>State</strong>"
+msgstr "<strong>Estado</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "<strong>State</strong><br/>"
+msgstr "<strong>Estado</strong><br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "<strong>Subtotal: </strong>"
+msgstr "<strong>Subtotal: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+msgid "<strong>Vat: </strong>"
+msgstr "<strong>Tina: </strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_customer_details
+msgid "<strong>Vat:</strong>"
+msgstr "<strong>Tina:</strong>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+msgid "Address"
+msgstr "Dirección"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_advanced
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_advanced
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_advanced
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_advanced
+#: selection:res.company,standard_template:0
+msgid "Advanced"
+msgstr "Avanzado"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Amount"
+msgstr "Importe"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+msgid "Amount Due"
+msgstr "Saldo"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_append_extra_content
+msgid "Append Extra Content"
+msgstr "Agregar contenido adicional"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "Apple Mobile"
+msgstr "Apple Mobile"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_bank_id
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Barcode"
+msgstr "Código de barras"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_customer_details
+msgid "Biztech IT Consultancy Pvt. Ltd."
+msgstr "Biztech IT Consultancy Pvt. Ltd."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_company_details
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_customer_details
+msgid "C/801, Dev Aurum Commercial,\n"
+"                <br/>Prahalad Nagar, Gujarat, India.<br/>"
+msgstr "C/801, Dev Aurum Commercial,\n"
+"                <br/>Prahalad Nagar, Gujarat, India.<br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "Cancelled Invoice"
+msgstr "Factura cancelada"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Cancelled Invoice No:"
+msgstr "Factura Cancelada No:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Cancelled Invoice To:"
+msgstr "Factura Cancelada a:"
+
+#. module: inflow_general_template
+#: model:ir.actions.act_window,help:inflow_general_template.action_report_extracontent
+msgid "Click to create a Report append extra content."
+msgstr "Haga clic para crear un informe anexar contenido adicional."
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_company_address_color
+msgid "Company Address Color"
+msgstr "Color de dirección de la empresa"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_company_color
+msgid "Company Name Color"
+msgstr "Nombre de la empresa Color"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_contemporary
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_contemporary
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_contemporary
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_contemporary
+#: selection:res.company,standard_template:0
+msgid "Contemporary"
+msgstr "Contemporáneo"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_create_uid
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_create_date
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_creative
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_creative
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_creative
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_creative
+#: selection:res.company,standard_template:0
+msgid "Creative"
+msgstr "Creativo"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+msgid "Credit Amount"
+msgstr "Monto de crédito"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_customer_address_color
+msgid "Customer Address Color"
+msgstr "Color de la dirección del cliente"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "Customer Address:"
+msgstr "Dirección del cliente:"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_customer_color
+msgid "Customer Name Color"
+msgstr "Color del nombre del cliente"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Date"
+msgstr "Fecha"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "Date Ordered:"
+msgstr "fecha del pedido:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+msgid "Date Req."
+msgstr "Fecha requerida."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_partner_sale_order
+msgid "Default Report Settings"
+msgstr "Configuración de informe predeterminada"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Default Template Settings"
+msgstr "Configuración de plantilla predeterminada"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+msgid "Delivery No #"
+msgstr "Sin entrega #"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_incredible_header
+msgid "Delivery Note"
+msgstr "Nota de entrega"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_delivery_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_delivery_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_delivery_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_delivery_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_delivery_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_delivery_template_id1
+msgid "Delivery Note Template"
+msgstr "Plantilla de nota de entrega"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_professional_header
+msgid "Delivery Note:<br/>"
+msgstr "Nota de entrega:<br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_advanced_main
+msgid "Delivery To"
+msgstr "Entregar a"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_delivery_professional_main
+msgid "Delivery to:"
+msgstr "Entregar a:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "Description"
+msgstr "Descripción"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Destination"
+msgstr "Destino"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Disc.(%)"
+msgstr "Desc.(%)"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_add_amount_in_words
+msgid "Display Amount In Word"
+msgstr "Mostrar cantidad en Word"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_show_bank_details
+msgid "Display Bank Details"
+msgstr "Mostrar detalles bancarios"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_company_bold
+msgid "Display Company Name in Bold"
+msgstr "Mostrar el nombre de la empresa en negrita"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_customer_bold
+msgid "Display Customer Name in Bold"
+msgstr "Mostrar el nombre del cliente en negrita"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_display_name
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_show_notes
+msgid "Display Notes"
+msgstr "Notas de pantalla"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_show_payment_notes
+msgid "Display Payment Notes"
+msgstr "Mostrar notas de pago"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_description
+msgid "Display Product Description"
+msgstr "Mostrar descripción del producto"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_add_product_image
+msgid "Display Product Image"
+msgstr "Mostrar imagen del producto"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_is_show_signature
+msgid "Display Signature"
+msgstr "Mostrar firma"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark
+msgid "Display Watermark"
+msgstr "Mostrar marca de agua"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_signature
+msgid "Display uploaded signature in PDF reports."
+msgstr "Muestra la firma cargada en informes PDF."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Draft Invoice"
+msgstr "Factura borrador"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Draft Invoice To:"
+msgstr "Borrador de factura a:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main_header
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_elegant
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_elegant
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_elegant
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_elegant
+#: selection:res.company,standard_template:0
+msgid "Elegant"
+msgstr "Elegante"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_footer
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_exclusive
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_exclusive
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_exclusive
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_exclusive
+#: selection:res.company,standard_template:0
+msgid "Exclusive"
+msgstr "Exclusivo"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+msgid "Expected Date"
+msgstr "Fecha prevista"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_file_name
+msgid "File name"
+msgstr "Nombre del archivo"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_font
+msgid "Font"
+msgstr "Fuente"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_name
+msgid "Font Name"
+msgstr "Nombre de la fuente"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_family
+msgid "Font family"
+msgstr "Familia tipográfica"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_report_fonts
+msgid "Fonts available"
+msgstr "Fuentes disponibles"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_text_color
+msgid "General Text Color"
+msgstr "Color de texto general"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Image"
+msgstr "Imagen"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_account_invoice_amount_to_text
+#: model:ir.model.fields,field_description:inflow_general_template.field_purchase_order_amount_to_text
+#: model:ir.model.fields,field_description:inflow_general_template.field_sale_order_amount_to_text
+msgid "In Words"
+msgstr "En palabras"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_incredible
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_incredible
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_incredible
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_incredible
+#: selection:res.company,standard_template:0
+msgid "Incredible"
+msgstr "Increíble"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_innovative
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_innovative
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_innovative
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_innovative
+#: selection:res.company,standard_template:0
+msgid "Innovative"
+msgstr "Innovador"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_account_invoice
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Invoice No:"
+msgstr "Factura no:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "Invoice No:<br/>"
+msgstr "Factura no:<br/>"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_account_invoice_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_account_invoice_report_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_template_id1
+msgid "Invoice Template"
+msgstr "Plantilla de factura"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Invoice To:"
+msgstr "Factura a:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "Invoice to:"
+msgstr "Factura a:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+msgid "Invoicing address:"
+msgstr "Dirección de facturación:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_customer_details
+msgid "Invoicing and shipping address:"
+msgstr "Dirección de facturación y de envío:"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content___last_update
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_write_uid
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_write_date
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: inflow_general_template
+#: selection:res.company,watermark:0
+msgid "Logo"
+msgstr "Logo"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Lot"
+msgstr "Mucho"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Lot/Serial Number"
+msgstr "Lote/Número de serie"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "Mackbook Pro"
+msgstr "Mackbook Pro"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Method"
+msgstr "Método"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_mode
+msgid "Mode"
+msgstr "Modo"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_extra_content_model_id
+msgid "Model"
+msgstr "Modelo"
+
+#. module: inflow_general_template
+#: sql_constraint:report.extra.content:0
+msgid "Model and Company must be unique."
+msgstr "El modelo y la compañía deben ser únicos."
+
+#. module: inflow_general_template
+#: selection:res.company,report_footer_selection:0
+msgid "Multi Columns Footer"
+msgstr "Pie de página multi columnas"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+msgid "Net Price"
+msgstr "Precio neto"
+
+#. module: inflow_general_template
+#: selection:res.company,report_footer_selection:0
+msgid "No Footer"
+msgstr "Sin pie de página"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "Online Bank Transfer"
+msgstr "Transferencia bancaria en línea"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_professional_header
+msgid "Order #"
+msgstr "Pedido #"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "Order No:"
+msgstr "No de pedido:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "PO:"
+msgstr "PO:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "PRO-FORMA"
+msgstr "PRO-FORMA"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "PRO-FORMA No:"
+msgstr "PRO-FORMA No:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "PRO-FORMA To:"
+msgstr "PRO-FORMAT:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_footer
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Página: <span class=\"page\"/>/<span class=\"topage\"/>"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_report_fonts_path
+msgid "Path"
+msgstr "Ruta"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Payment History"
+msgstr "historial de pagos"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Payments is Pending"
+msgstr "Los pagos están pendientes"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_footer
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_picking_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_picking_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_picking_template_id
+msgid "Picking List Template"
+msgstr "Los pagos están pendientes"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+msgid "Picking No #"
+msgstr "Escogiendo No #"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_incredible_header
+msgid "Picking Operations"
+msgstr "Operaciones de picking"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "Picking Operations:"
+msgstr "Operaciones de picking:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_professional_header
+msgid "Picking Operations: <br/>"
+msgstr "Operaciones de picking: <br/>"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_stock_picking_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_stock_picking_report_template_id1
+msgid "Picking Template"
+msgstr "Selección de plantilla"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_add_product_image
+msgid "Please check it if you want to Product Image"
+msgstr "Por favor, compruebe si desea Imagen del producto"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_show_bank_details
+msgid "Please check it if you want to show Bank details in PDF."
+msgstr "Verifíquelo si desea mostrar los detalles del Banco en PDF."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_company_bold
+msgid "Please check it if you want to show Company Name in Bold."
+msgstr "Verifíquelo si desea mostrar el nombre de la empresa en negrita."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_customer_bold
+msgid "Please check it if you want to show Customer Name in Bold."
+msgstr "Verifíquelo si desea mostrar el nombre del cliente en negrita."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_show_notes
+msgid "Please check it if you want to show Invoice, Sale, Purchase Notes in pdf."
+msgstr "Por favor, compruebe si desea mostrar Factura, Venta, Notas de compra en pdf."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_show_payment_notes
+msgid "Please check it if you want to show Payment Notes in pdf."
+msgstr "Por favor, compruebe si desea mostrar las notas de pago en pdf."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_description
+msgid "Please check it if you want to show product description in report."
+msgstr "Por favor, compruebe si desea mostrar la descripción del producto en el informe."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_is_show_signature
+msgid "Please check it if you want to show signature in PDF."
+msgstr "Por favor, verifíquelo si desea mostrar la firma en PDF."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Please click here if you want to get all the fonts of your system. After click please reload the page."
+msgstr "Haga clic aquí si desea obtener todas las fuentes de su sistema. Después de hacer clic, vuelve a cargar la página."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_watermark_text
+msgid "Please enter watermark text"
+msgstr "Ingrese el texto de la marca de agua"
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/res_company.py:395
+#, python-format
+msgid "Please input font size is greater than 10 and lower than 25, otherwise your report will very massive."
+msgstr "Ingrese el tamaño de fuente es mayor que 10 y menor que 25, de lo contrario su informe será muy masivo."
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/res_company.py:397
+#, python-format
+msgid "Please input watermark text font size is greater than 0 and lower than 10, otherwise your report will very massive."
+msgstr "Ingrese el tamaño de fuente del texto de la marca de agua que sea mayor que 0 y menor que 10; de lo contrario, su informe será muy masivo."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_delivery_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_delivery_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_delivery_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_delivery_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_delivery_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_delivery_template_id1
+msgid "Please select Template report for Delivery Note "
+msgstr "Seleccione Informe de plantilla para la Nota de entrega"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_account_invoice_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_account_invoice_report_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_template_id1
+msgid "Please select Template report for Invoice"
+msgstr "Seleccione el informe de plantilla para Factura"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_stock_picking_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_stock_picking_report_template_id1
+msgid "Please select Template report for Picking"
+msgstr "Seleccione el informe de plantilla para Picking"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_picking_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_picking_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_picking_template_id
+msgid "Please select Template report for Picking List"
+msgstr "Seleccione el informe de plantilla para la lista de selección"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_purchase_order_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_purchase_order_report_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_po_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_po_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_po_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_po_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_po_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_po_template_id1
+msgid "Please select Template report for Purchase Order"
+msgstr "Seleccione el informe de plantilla para la orden de compra"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_rfq_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_rfq_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_rfq_template_id
+msgid "Please select Template report for RFQ"
+msgstr "Seleccione el informe de plantilla para RFQ"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_sale_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_sale_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_sale_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_partner_report_sale_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_sale_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_res_users_report_sale_template_id1
+#: model:ir.model.fields,help:inflow_general_template.field_sale_order_report_template_id
+#: model:ir.model.fields,help:inflow_general_template.field_sale_order_report_template_id1
+msgid "Please select Template report for Sale Order"
+msgstr "Seleccione Informe de plantilla para pedido de cliente"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_standard_template
+msgid "Please select your choice Standard Color Configuration for all Template."
+msgstr "Seleccione su configuración de color estándar para todas las plantillas."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_logo_footer
+msgid "Please set Footer Logo for Report."
+msgstr "Configure el Logotipo de pie de página para el Informe."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_company_address_color
+msgid "Please set Hex color for Company Address."
+msgstr "Establezca el color hexadecimal para la dirección de la empresa."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_company_color
+msgid "Please set Hex color for Company Name."
+msgstr "Por favor, configure el color hexadecimal para el nombre de la empresa."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_customer_address_color
+msgid "Please set Hex color for Customer Address."
+msgstr "Establezca el color hexadecimal para la dirección del cliente."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_customer_color
+msgid "Please set Hex color for Customer Name."
+msgstr "Por favor, configure el color hexadecimal para el nombre del cliente."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_text_color
+msgid "Please set Hex color for General Text."
+msgstr "Por favor, configure el color hexadecimal para texto general."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_even_party_color
+msgid "Please set Hex color for Table Even Parity."
+msgstr "Establezca el color hexadecimal para la Paridad par tabla."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_odd_party_color
+msgid "Please set Hex color for Table Odd Parity."
+msgstr "Establezca el color hexadecimal para Paridad impar de tabla."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_theme_text_color
+msgid "Please set Hex color for Template Text."
+msgstr "Por favor, configure el color hexadecimal para el texto de la plantilla."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_theme_color
+msgid "Please set Hex color for Template."
+msgstr "Por favor, configure el color hexadecimal para Plantilla."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_watermark_text_color
+msgid "Please set Hex color for Watermark text."
+msgstr "Establezca el color hexadecimal para el texto de marca de agua."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_watermark_logo
+msgid "Please set Watermark Logo for Report."
+msgstr "Configure el logotipo de Watermark para el informe."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_add_amount_in_words
+msgid "Please unchecked if you want to hide amount in words"
+msgstr "Por favor desmarque si quiere ocultar la cantidad en palabras"
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/report_extra_content.py:31
+#, python-format
+msgid "Please upload pdf file only"
+msgstr "Cargue solo el archivo pdf"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_demo_template
+msgid "Preview Template"
+msgstr "Plantilla de vista previa"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Price"
+msgstr "Precio"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "Product"
+msgstr "Producto"
+
+#. module: inflow_general_template
+#: model:ir.actions.report,name:inflow_general_template.report_delivery_professional
+#: model:ir.actions.report,name:inflow_general_template.report_invoice_template_professional
+#: model:ir.actions.report,name:inflow_general_template.report_purchase_professional
+#: model:ir.actions.report,name:inflow_general_template.report_sale_order_professional
+#: selection:res.company,standard_template:0
+msgid "Professional"
+msgstr "Profesional"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_purchase_order
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_advanced_header
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_innovative_header
+msgid "Purchase Order  Confirmation:"
+msgstr "Confirmación de pedido de compra:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+msgid "Purchase Order Confirmation #"
+msgstr "Confirmación pedido de compra #"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_po_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_po_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_po_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_po_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_po_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_po_template_id1
+msgid "Purchase Order Template"
+msgstr "Plantilla de orden de compra"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_professional_header
+msgid "Purchase Order:<br/>"
+msgstr "Orden de compra:<br/>"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_purchase_order_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_purchase_order_report_template_id1
+msgid "Purchase Template"
+msgstr "Plantilla de compra"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+msgid "Qty"
+msgstr "Cant."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_sale_order
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "Quotation"
+msgstr "Presupuesto"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_professional_header
+msgid "Quotation #"
+msgstr "Presupuesto # "
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_quotation_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_order_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_sale_professional_main
+msgid "Quotation Date:"
+msgstr "Fecha de cotización:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "Quotation No:"
+msgstr "Cita No:"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_sale_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_sale_template_id1
+msgid "Quotation/Order Template"
+msgstr "Plantilla de oferta / pedido"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_rfq_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_rfq_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_rfq_template_id
+msgid "RFQ Template"
+msgstr "Plantilla RFQ"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+msgid "Ref."
+msgstr "Árbitro."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "Refund"
+msgstr "Reembolso"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Refund No:"
+msgstr "Reembolso no:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Refund To:"
+msgstr "Reembolso a:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_partner_sale_order
+msgid "Report Configuration"
+msgstr "Configuración de informes"
+
+#. module: inflow_general_template
+#: model:ir.actions.act_window,name:inflow_general_template.action_report_extracontent
+msgid "Report Extra Content"
+msgstr "Informar contenido extra"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Report Font"
+msgstr "Fuente de informe"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_font_size
+msgid "Report Font Size(px)"
+msgstr "Tamaño de fuente de informe (px)"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Report Footer"
+msgstr "Informe pie de página"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_logo_footer
+msgid "Report Footer Logo"
+msgstr "Informar sobre el logotipo del pie de página"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_invoice_logo
+msgid "Report Logo"
+msgstr "Informe Logo"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark_logo
+msgid "Report Watermark Logo"
+msgstr "Informar el logotipo de la marca de agua"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Report font"
+msgstr "Fuente de informe"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_report_footer_selection
+msgid "Report footer"
+msgstr "Informar pie de página"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_advanced_header
+msgid "Request for Quotation"
+msgstr "Solicitud de presupuesto"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_purchase_professional_main
+msgid "Request for Quotation #"
+msgstr "Solicitud de presupuesto #"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_innovative_header
+msgid "Request for Quotation:"
+msgstr "Solicitud de presupuesto:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_professional_header
+msgid "Request for Quotation: <br/>"
+msgstr "Solicitud de presupuesto: <br/>"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_advanced
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_creative
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_custom
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_elegant
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_exclusive
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_professional
+msgid "SO/124/4567"
+msgstr "SO/124/4567"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "SO:"
+msgstr "SO:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_innovative_header
+msgid "Sale Order"
+msgstr "Orden de venta"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_sale_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_partner_report_sale_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_sale_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_users_report_sale_template_id1
+#: model:ir.model.fields,field_description:inflow_general_template.field_sale_order_report_template_id
+#: model:ir.model.fields,field_description:inflow_general_template.field_sale_order_report_template_id1
+msgid "Sale Order Template"
+msgstr "Plantilla de orden de venta"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_report_footer_selection
+msgid "Select footer style if you want to show in report"
+msgstr "Seleccione el estilo del pie de página si desea mostrar en el informe"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+msgid "Serial Number"
+msgstr "Número de serie"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_font
+msgid "Set the font into the report header, it will be used as default font in the clever reports of the user company"
+msgstr "Establezca la fuente en el encabezado del informe, se usará como fuente predeterminada en los informes inteligentes de la empresa usuaria."
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_signature
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Signature"
+msgstr "Firma"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+msgid "Source"
+msgstr "Origen"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_payment_move_line
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.quotation_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "Sr."
+msgstr "De serie"
+
+#. module: inflow_general_template
+#: selection:res.company,report_footer_selection:0
+msgid "Standard"
+msgstr "Estándar"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_standard_template
+msgid "Standard Template Configuration"
+msgstr "Configuración de plantilla estándar"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.delivery_note_templates_order_line
+#: selection:res.company,watermark:0
+msgid "Status"
+msgstr "Estado"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "SubTotal"
+msgstr "Total parcial"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_even_party_color
+msgid "Table Even Parity Color"
+msgstr "Tabla incluso color de paridad"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_odd_party_color
+msgid "Table Odd Parity Color"
+msgstr "Tabla de color de paridad impar"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_theme_color
+msgid "Template Base Color"
+msgstr "Color base de la plantilla"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_theme_text_color
+msgid "Template Text Color"
+msgstr "Color del texto de la plantilla"
+
+#. module: inflow_general_template
+#: selection:res.company,watermark:0
+msgid "Text"
+msgstr "Texto"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_account_invoice_amount_to_text
+#: model:ir.model.fields,help:inflow_general_template.field_purchase_order_amount_to_text
+#: model:ir.model.fields,help:inflow_general_template.field_sale_order_amount_to_text
+msgid "The amount in words"
+msgstr "La cantidad en palabras"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_invoice_logo
+msgid "This field holds the image used as Logo for Invoice template report"
+msgstr "Este campo contiene la imagen utilizada como logotipo para el informe de plantilla de factura"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.template_total_amount_word
+msgid "Total in word:-"
+msgstr "Total en palabra:-"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_suggested_order_line
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "Vendor Address:"
+msgstr "Dirección del vendedor:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "Vendor Bill"
+msgstr "Factura de proveedor"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Vendor Bill No:"
+msgstr "Factura del proveedor no:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Vendor Bill To:"
+msgstr "Factura del proveedor a:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.advanced_header
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.professional_header
+msgid "Vendor Refund"
+msgstr "Reembolso del vendedor"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.incredible_header
+#: model:ir.ui.view,arch_db:inflow_general_template.innovative_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Vendor Refund No:"
+msgstr "Reembolso del proveedor no:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_professional_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_invoice_template_main
+msgid "Vendor Refund To:"
+msgstr "Reembolso del proveedor a:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.picking_exclusive_header
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "Warehouse Address:"
+msgstr "Dirección de almacén:"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "Watermark"
+msgstr "Filigrana"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark_text
+msgid "Watermark Text"
+msgstr "Texto de marca de agua"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark_text_color
+msgid "Watermark Text Color"
+msgstr "Color de texto de marca de agua"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,field_description:inflow_general_template.field_res_company_watermark_text_font_size
+msgid "Watermark Text Font Size(em)"
+msgstr "Tamaño de fuente de texto de marca de agua (em)"
+
+#. module: inflow_general_template
+#: model:ir.model.fields,help:inflow_general_template.field_res_company_watermark
+msgid "We can choose watermark for pdf either logo or text or status."
+msgstr "Podemos elegir marca de agua para pdf, ya sea logotipo o texto o estado."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.templates_footer
+msgid "Web:"
+msgstr "Web:"
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/ir_actions_report.py:83
+#, python-format
+msgid "Wkhtmltopdf failed (error code: %s). Memory limit too low or maximum file number of subprocess reached. Message : %s"
+msgstr "Wkhtmltopdf falló (código de error: %s). Límite de memoria demasiado bajo o máximo número de archivo del subproceso alcanzado. Mensaje: %s"
+
+#. module: inflow_general_template
+#: code:addons/inflow_general_template/models/ir_actions_report.py:86
+#, python-format
+msgid "Wkhtmltopdf failed (error code: %s). Message: %s"
+msgstr "Wkhtmltopdf falló (código de error: %s). Mensaje: %s"
+
+#. module: inflow_general_template
+#: model:ir.actions.act_window,help:inflow_general_template.action_report_extracontent
+msgid "You can append extra content while print report based on model\n"
+"                for eg. if you want to add brochure, while print Quotation."
+msgstr "Puede agregar contenido adicional mientras imprime el informe según el modelo\n"
+"                por ej. si desea agregar un folleto, mientras imprime Cita."
+
+#. module: inflow_general_template
+#: sql_constraint:report.fonts:0
+msgid "You can not register two fonts with the same name"
+msgstr "No puedes registrar dos fuentes con el mismo nombre"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_advanced_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_creative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_custom_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_elegant_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_exclusive_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_incredible_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_innovative_main
+#: model:ir.ui.view,arch_db:inflow_general_template.report_picking_professional_main
+msgid "You do not have any products reserved for this picking.  Please click the 'Reserve' button\n"
+"                                                to check if products are available."
+msgstr "No tiene ningún producto reservado para esta selección. Haga clic en el botón 'Reservar'\n"
+"                                                para verificar si los productos están disponibles."
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "amount"
+msgstr "cantidad"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "date"
+msgstr "fecha"
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_ir_actions_report
+msgid "ir.actions.report"
+msgstr "ir.actions.report"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #2763a1"
+msgstr "like #2763a1"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #2763c1"
+msgstr "like #2763c1"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #5bb3d2"
+msgstr "like #5bb3d2"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #5cc2d2"
+msgstr "like #5cc2d2"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #DAF7A6"
+msgstr "like #DAF7A6"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #aea8a8"
+msgstr "like #aea8a8"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #aea8aa"
+msgstr "like #aea8aa"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #b30000"
+msgstr "like #b30000"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #b30010"
+msgstr "like #b30010"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.view_report_company_sale_order
+msgid "like #d4d2d2"
+msgstr "like #d4d2d2"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "method"
+msgstr "método"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "quantity"
+msgstr "cantidad"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "ref."
+msgstr "árbitro."
+
+#. module: inflow_general_template
+#: model:ir.model,name:inflow_general_template.model_report_extra_content
+msgid "report.extra.content"
+msgstr "report.extra.content"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "sr."
+msgstr "de serie"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+msgid "taxes"
+msgstr "impuestos"
+
+#. module: inflow_general_template
+#: model:ir.ui.view,arch_db:inflow_general_template.invoice_templates_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.purchase_template_order_lines
+#: model:ir.ui.view,arch_db:inflow_general_template.report_demo_template_main
+#: model:ir.ui.view,arch_db:inflow_general_template.sale_templates_order_lines
+msgid "total"
+msgstr "total"
+
