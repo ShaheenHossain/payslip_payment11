@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a75b10f-a8ba-46a3-93f8-4e6620d9e035" name="Default Changelist" comment="Addon Commit">
+      <change afterPath="$PROJECT_DIR$/docs/pages/expenses/expense_by_employee.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/pages/expenses/expense_product.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pages/accounting.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/pages/accounting.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/doctrees/environment.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_build/doctrees/pages/expenses.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/doctrees/pages/expenses.doctree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_build/html/_sources/pages/expenses.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/_sources/pages/expenses.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_build/html/pages/expenses.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/pages/expenses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pages/expenses.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/pages/expenses.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inflow_general_template/views/advanced_template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inflow_general_template/views/advanced_template.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,29 +92,40 @@
       <option name="project" value="LOCAL" />
       <updated>1588391381785</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Addon Commit">
+      <created>1590457633051</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590457633052</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Addon Commit" />
     <MESSAGE value="Added Docs directory installed with Sphinx" />
     <MESSAGE value="New Test Commit" />
     <MESSAGE value="Addon Commit 2nd May, 2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addon Commit 2nd May, 2020" />
+    <MESSAGE value="Addon Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addon Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="307" y="23" width="825" height="813" key="CommitChangelistDialog2" timestamp="1588391381237">
+    <state x="409" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590460284879">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="307" y="23" width="825" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1588391381237" />
+    <state x="409" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.813@0.23.1440.813" timestamp="1590460284879" />
+    <state x="307" y="23" width="825" height="813" key="CommitChangelistDialog2" timestamp="1590457632466">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="307" y="23" width="825" height="813" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1590457632466" />
     <state x="229" y="68" key="SettingsEditor" timestamp="1588309142220">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1588309142220" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1588391398215">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1590457658152">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1588391398215" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1590457658152" />
     <state x="531" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1588062357591">
       <screen x="0" y="23" width="1440" height="813" />
     </state>

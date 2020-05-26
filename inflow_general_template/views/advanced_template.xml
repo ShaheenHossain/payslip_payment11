@@ -93,9 +93,9 @@
                                                     </t>
                                                     <div t-attf-style="color: #{o.company_id and o.company_id.company_address_color or '#ffffff'};">
                                                         <b t-attf-style="color: #{o.company_id and o.company_id.company_address_color or '#ffffff'};">Address:</b>
-                                                        <span t-esc="o._get_street(o.company_id.partner_id)"/>
+                                                        <span t-esc="o._get_street(o.partner_id.warehouse_id.partner_id)"/>
                                                         <br/>
-                                                        <span t-esc="o._get_address_details(o.company_id.partner_id)"/>
+                                                        <span t-esc="o._get_address_details(o.partner_id.warehouse_id.partner_id)"/>
                                                     </div>
                                                     <t t-if="o.partner_id.warehouse_id.partner_id.state_id">
                                                         <strong t-attf-style="color: #{o.company_id and o.company_id.company_address_color or '#ffffff'};">State Code: (
@@ -639,7 +639,7 @@
                                                                     <span t-esc="taxable_value_sum" t-options='{"widget": "monetary", "display_currency":o.currency_id}'/>
                                                                 </td>
                                                                 <td align="right" t-att-style="'padding:9px 0px 7px 0px; color: %s;' % (o.company_id.text_color) ">
-                                                                    <t t-if="not o.company_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
+                                                                    <t t-if="not o.partner_id.warehouse_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
                                                                         <t t-set="loop_limit" t-value="1"/>
                                                                         <t t-foreach="o.invoice_line_ids" t-as="l">
                                                                             <t t-if="hsn_data == l.product_id.l10n_in_hsn_code">
@@ -658,7 +658,7 @@
 
 
                                                                 <td align="right" t-att-style="'padding:9px 0px 7px 0px; color: %s;' % (o.company_id.text_color) ">
-                                                                    <t t-if="not o.company_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
+                                                                    <t t-if="not o.partner_id.warehouse_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
                                                                         <t t-set="igst_sum" t-value="0" />
                                                                         <t t-foreach="o.invoice_line_ids" t-as="l">
                                                                             <t t-if="hsn_data == l.product_id.l10n_in_hsn_code">
@@ -670,7 +670,7 @@
                                                                 </td>
 
                                                                 <td align="right" t-att-style="'padding:9px 0px 7px 0px; color: %s;' % (o.company_id.text_color) ">
-                                                                    <t t-if="o.company_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
+                                                                    <t t-if="o.partner_id.warehouse_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
                                                                         <t t-set="loop_limit" t-value="1" />
                                                                         <t t-foreach="o.invoice_line_ids" t-as="l">
                                                                             <t t-if="hsn_data == l.product_id.l10n_in_hsn_code">
@@ -690,7 +690,7 @@
                                                                 </td>
 
                                                                 <td align="right" t-att-style="'padding:9px 0px 7px 0px; color: %s;' % (o.company_id.text_color) ">
-                                                                    <t t-if="o.company_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
+                                                                    <t t-if="o.partner_id.warehouse_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
                                                                         <t t-set="cgst_sum" t-value="0" />
                                                                         <t t-foreach="o.invoice_line_ids" t-as="l">
                                                                             <t t-if="hsn_data == l.product_id.l10n_in_hsn_code">
@@ -703,7 +703,7 @@
                                                                 </td>
 
                                                                 <td align="right" t-att-style="'padding:9px 0px 7px 0px; color: %s;' % (o.company_id.text_color) ">
-                                                                    <t t-if="o.company_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
+                                                                    <t t-if="o.partner_id.warehouse_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
                                                                         <t t-set="loop_limit" t-value="1" />
                                                                         <t t-foreach="o.invoice_line_ids" t-as="l">
                                                                             <t t-if="hsn_data == l.product_id.l10n_in_hsn_code">
@@ -723,7 +723,7 @@
                                                                 </td>
 
                                                                 <td align="right" t-att-style="'padding:9px 0px 7px 0px; color: %s;' % (o.company_id.text_color) ">
-                                                                    <t t-if="o.company_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
+                                                                    <t t-if="o.partner_id.warehouse_id.partner_id.state_id.gst_code == o.partner_id.state_id.gst_code">
                                                                         <t t-set="sgst_sum" t-value="0" />
                                                                         <t t-foreach="o.invoice_line_ids" t-as="l">
                                                                             <t t-if="hsn_data == l.product_id.l10n_in_hsn_code">
@@ -830,7 +830,7 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td align="right" style="font-size:12px; padding:8px 5px 0px 0px; border-top:1px solid #ececec;" width="50%">
+                                                            <td align="left" style="font-size:12px; padding:8px 5px 0px 0px; border-top:1px solid #ececec;" width="50%">
                                                                 <strong t-attf-style="color: #{o.company_id and o.company_id.company_address_color or '#ffffff'};">Terms and Conditions: </strong>
                                                                 <p>Certified that the particulars given above are true and correct and the amount indicated represents the price actually charged and that there is no additional consideration flowing directly or indirectly from the buyer</p>
                                                                 <br/>

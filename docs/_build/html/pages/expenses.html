@@ -35,6 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Record Expenses made by Company Employee" href="expenses/expense_by_employee.html" />
     <link rel="prev" title="Helpdesk" href="helpdesk.html" /> 
 </head>
 
@@ -85,9 +86,15 @@
 <li class="toctree-l1"><a class="reference internal" href="sales.html">Sales</a></li>
 <li class="toctree-l1"><a class="reference internal" href="purchases.html">Purchases</a></li>
 <li class="toctree-l1"><a class="reference internal" href="inventory.html">Inventory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="accounting.html">Accounting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accounting.html">Accounting test</a></li>
 <li class="toctree-l1"><a class="reference internal" href="helpdesk.html">Helpdesk</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Expenses</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Expenses</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-set-expense-types">How to set expense types</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="expenses/expense_by_employee.html">Record Expenses made by Company Employee</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
             
@@ -154,6 +161,52 @@
             
   <div class="section" id="expenses">
 <h1>Expenses<a class="headerlink" href="#expenses" title="Permalink to this headline">¶</a></h1>
+<p>Expenses being done can be broadly classified into two categories:</p>
+<ol class="arabic simple">
+<li><strong>Expenses being incurred and managed by the Company (Company Expenses)</strong></li>
+<li><strong>Expenses being incurred by the employee and managed by the Company (Employee Expenses)</strong></li>
+</ol>
+<p>Depending on the type, the workflow will be different</p>
+<p>Expenses can also be categorized into</p>
+<ol class="arabic simple">
+<li><strong>GST Expenses - Whose input GST has to be claimed by the company</strong></li>
+<li><strong>Non-GST Expenses - Whose input GST cannot be claimed by the company</strong></li>
+</ol>
+<p>Expenses can also be</p>
+<ol class="arabic simple">
+<li><strong>Recurring - Monthly Rent, Phone, electricity bills etc</strong></li>
+<li><strong>Non-recurring - One time expenses</strong></li>
+</ol>
+<p>Recurring expenses are generally taken care by the company - Company Expenses</p>
+<div class="section" id="how-to-set-expense-types">
+<h2>How to set expense types<a class="headerlink" href="#how-to-set-expense-types" title="Permalink to this headline">¶</a></h2>
+<p>The first step to track expenses is to configure the expense types (managed as products in Odoo) that your company allows, from the Configuration menu. When a specific expense is reimbursed at a fixed price, set a cost on the product. Otherwise keep the cost at 0.0 and employees will report the real cost per expense.</p>
+<img alt="../_images/expense_product.png" class="align-center" src="../_images/expense_product.png" />
+<p>Here are some examples to configure:</p>
+<ol class="arabic simple">
+<li>Restaurant: Cost: 0.00 (the cost of the ticket will be recorded on every expense)</li>
+<li>Travel with Personal Car: Cost: 0.30 (the price per mile reimbursed by the company is fixed)</li>
+<li>Hotel: Cost: 0.00 (the cost of the ticket will be recorded on every expense)</li>
+<li>Others: Cost: 0.0</li>
+</ol>
+<p>Don’t forget to set an expense tax on each expense type (and an account if you use Odoo Accounting). It’s usually a good practice to use a tax that is configured with Tax Included in Price. That way, employees report expenses with prices including taxes, which is usually the expected behaviour.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The Sales app allows you to specify unit of measures for your expense types (units, miles, nights, etc.). Go to Sales ‣ Configuration ‣ Settings and check Some products may be sold/purchased in different units of measure (advanced).</p>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">How to Record Expenses:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="expenses/expense_by_employee.html">Record Expenses made by Company Employee</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="expenses/expense_by_employee.html#manually">Manually</a></li>
+<li class="toctree-l2"><a class="reference internal" href="expenses/expense_by_employee.html#in-one-click-from-emails">In one click from emails</a></li>
+<li class="toctree-l2"><a class="reference internal" href="expenses/expense_by_employee.html#how-to-submit-expenses-to-managers">How to submit expenses to managers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="expenses/expense_by_employee.html#how-to-approve-expenses">How to approve expenses</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 </div>
 
 
@@ -163,6 +216,8 @@
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="expenses/expense_by_employee.html" class="btn btn-neutral float-right" title="Record Expenses made by Company Employee" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="helpdesk.html" class="btn btn-neutral float-left" title="Helpdesk" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
