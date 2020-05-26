@@ -42,6 +42,7 @@ Here are some examples to configure:
 
 Don’t forget to set an expense tax on each expense type (and an account if you use Odoo Accounting). It’s usually a good practice to use a tax that is configured with Tax Included in Price. That way, employees report expenses with prices including taxes, which is usually the expected behaviour.
 
+
 .. tip:: The Sales app allows you to specify unit of measures for your expense types (units, miles, nights, etc.). Go to Sales ‣ Configuration ‣ Settings and check Some products may be sold/purchased in different units of measure (advanced).
 
 .. toctree::

@@ -73,3 +73,4 @@ Once expense reports approved by managers, the accounting department goes to **E
 .. tip:: To post an expense, a Home Address must be set on the employee. If you get a related blocking message when posting, click the employee, go to Personal Information tab and select/create the contact of your employee in the address book. A contact has been automatically created if this person is using Odoo.
 
 
+dksfnsdkfnsl
