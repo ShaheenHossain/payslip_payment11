@@ -1,0 +1,609 @@
+
+<section class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <p class="mt32" style="font-size:18px">
+                This is the tool to schedule activity templates for regular and automatic generation of activities based on those templates. With the app you are sure that all recurring tasks will be planned and assigned for proper users. 
+            </p>
+
+            <p class="mt8" style="font-size:18px">
+                The tool is compatible
+
+                <span>with both Odoo Enterprise and Odoo Community.</span>
+            </p>
+
+            <ul class="nav nav-tabs">
+
+            <li class="active" style="color:#428bca;">
+                <a href="#features"
+                   data-toggle="tab"
+                   aria-expanded="true"
+                >
+                   Features
+                </a>
+            </li>
+
+
+                <li>
+                    <a href="#screenshots"
+                       data-toggle="tab"
+                       aria-expanded="true"
+                    >
+                       Screenshots
+                    </a>
+                </li>
+
+                <li style="color:#428bca;">
+                    <a href="#config"
+                       data-toggle="tab"
+                       aria-expanded="true"
+                    >
+                       Configuration
+                    </a>
+                </li>
+
+            <li style="color:#428bca;">
+                <a href="#support_info"
+                   data-toggle="tab"
+                   aria-expanded="true"
+                >
+                   Support
+
+                   <span>&amp; Demo</span>
+
+                </a>
+            </li>
+
+            </ul>
+
+
+            <div class="tab-content mt16">
+
+                <div class="tab-pane active" id="features">
+
+                    <p class="mt32">
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                Each activity recurring rule represents a template where you can define a target document (e.g. partner, opportunity, order, etc), a responsible user, summary, notes, regularity, deadline period
+                            </span>
+                        </div>
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                The recurrence of activities is flexibly defined: each Tuesday and Friday, the first day or the second Saturday of the month, every 2 days, etc. Look at the section <a href='#activities_recurrence'>Activities Recurrence</a>
+                            </span>
+                        </div>
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                Activity deadline is set as an activity creation date plus specified period in days (use the field 'Deadline in x Days')
+                            </span>
+                        </div>
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                The rules to prepare repeated activities is available from the activities' systray in the header
+                            </span>
+                        </div>
+
+                        <div class="mb8">
+                            <span class="fa fa-check-square-o fa-2x" style="color:#21B799;"/>
+                            <span style="font-size:18px">
+                                A recurring activity might be assigned for any Odoo internal user. You can grant responsibles a right to prepare rules for any user or grant a right for a specific user to access own recurring activities. Have a look at the section <a href='#recurrence_security'>Security Rules</a>
+                            </span>
+                        </div>
+
+                    </p>
+
+                    <div class="alert alert-warning">
+                        <span style="font-size:18px">
+                            <i class="fa fa-book"/>
+                            The module features depend on your Odoo version.
+                            Please select required one on the top right of this page
+                        </span>
+                    </div>
+
+                        <div class="col-md-12 mb32">
+                            <img class="img img-responsive shadow"
+                                 alt="Recurring activities by week days"
+                                 src="recurring_activites_by_weekdays.png"
+                            />
+                        </div>
+
+                    <div class="mb8">
+                        <h3><a name='activities_recurrence'> Activities Recurrence</a></h3>
+                        <span style="font-size:18px">
+                            <div class="alert alert-warning">
+<span style="font-size:18px">
+    <i class="fa fa-book"></i> Be cautious with a month / year exact date: if it didn't exist, a last month day would be applied: 31/09 --> 30/09
+</span>
+</div>
+It doesn't look fine to send a reminder on Sunday? No problem! Define regularity in a way you like.
+<ul  style='font-size:18px;'>
+<li>By days: generate an activity every day, each 5 days, each 181 days</li>
+<li>By weeks: assign a task on definite week days (e.g. on Mondays and Thursdays) each week or each 2,3,7,... weeks </li>
+<li>By months: 
+<ul>
+<li>For the first month day</li>
+<li>For the last month day</li>
+<li>For the exact date, e.g. the 16th</li>
+<li>For a definite weekday, for instance, the first Monday, the last Friday, or the third Tuesday</li>
+</ul>
+</li>
+<li>By years: on an exact year day, e.g. on the first of September each year</li>
+</ul>
+                        </span>
+                    </div>
+
+                            <div class="col-md-12 mb32">
+                                <img class="img img-responsive shadow"
+                                     alt="Schedule activities by months"
+                                     src="recurring_activities_month.png"
+                                />
+                            </div>
+
+                    <div class="mb8">
+                        <h3><a name='recurrence_security'> Security Rules </a></h3>
+                        <span style="font-size:18px">
+                            <ul style='font-size:18px;'>
+<li>Any internal user has right to observe own recurring activities</li>
+<li>Users with the right 'Only Own Recurrent Activities' may create, update and unlink recurring activities related to their users</li>
+<li>Users with the right 'All Recurrent Activities' or with the right 'Administration > Access Rights' have full rights for all rules</li>
+</ul>
+                        </span>
+                    </div>
+
+                            <div class="col-md-12 mb32">
+                                <img class="img img-responsive shadow"
+                                     alt="User rights for security activities"
+                                     src="recurring_activities_user_right.png"
+                                />
+                            </div>
+
+                        <div class="row col-md-12">
+                            <a name="recommended_odoo_apps"><h3>You may like the tools</h3></a>
+                        </div>
+
+
+                        <div class="row mb8">
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/message_edit">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_1.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/message_edit">
+                                        <span style="font-size:16px">Message / Note Editing</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool to correct accidental mistakes in messages and notes</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 44
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/total_notify">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_2.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/total_notify">
+                                        <span style="font-size:16px">Periodic Reporting and Reminders</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool to generate and periodically send reports and reminders</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                            <del style="font-size:14px;color:red;">
+                                                € 172
+                                            </del>
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 154
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/mail_manual_routing">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_3.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/mail_manual_routing">
+                                        <span style="font-size:16px">Lost Messages Routing</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool to make sure you do not loose any incoming messages</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                            <del style="font-size:14px;color:red;">
+                                                € 36
+                                            </del>
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 32
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/activities_todo">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_4.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/activities_todo">
+                                        <span style="font-size:16px">Activities To-Do Interface</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool to process activities one-by-one in a single interface</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 28
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/compoze_no_auto_subscribe">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_5.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/compoze_no_auto_subscribe">
+                                        <span style="font-size:16px">No Auto Subscription</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool to exclude automatic following for message recipients</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                            <del style="font-size:14px;color:red;">
+                                                € 49
+                                            </del>
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 44
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/internal_thread">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_6.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/internal_thread">
+                                        <span style="font-size:16px">Private Thread</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool for private communication without interrupting followers</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 28
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/knowsystem">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_7.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/knowsystem">
+                                        <span style="font-size:16px">KnowSystem</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool to build deep and structured knowledge base for internal and external use</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 228
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/google_drive_odoo">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_8.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/google_drive_odoo">
+                                        <span style="font-size:16px">Google Drive Odoo Integration</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool to automatically synchronize Odoo attachments with Google Drive files in both ways</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 394
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 row mt8 mb8" style="min-height: 150px;">
+                                <div class="col-md-3 mt8">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/owncloud_odoo">
+                                        <img class="img img-responsive icon_module"
+                                             src="app_icon_9.png"
+                                             alt="Odoo Recommended App"
+                                        />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    <a href="https://apps.odoo.com/apps/modules/11.0/owncloud_odoo">
+                                        <span style="font-size:16px">OwnCloud / NextCloud Odoo Integration</span>
+                                    </a>
+                                    <p class="mt0 mb0">
+                                        <span style="font-size:14px">The tool to automatically synchronize Odoo attachments with OwnCloud / NextCloud files in both ways</span>
+                                    </p>
+                                    <strong class="pull-right">
+                                        <span style="font-size:14px;margin-left:5px;">
+                                            € 394
+                                        </span>
+
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    <div class="col-md-12 mb8 text-center">
+                        <span style="font-size:22px;">
+                            <a href="https://apps.odoo.com/apps/modules/browse?author=Odoo%20Tools">
+                                <i class="fa fa-arrow-right"> More Apps by Odoo Tools</i>
+                            </a>
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="tab-pane" id="screenshots">
+
+                    <div class="col-md-12 mb32 alert alert-success">
+                         <span style="font-size:18px">
+                            Plan a recurring activity for any task with any regularity
+                         </span>
+                    </div>
+                    <div class="col-md-12 mb32">
+                        <img class="img img-responsive shadow"
+                             alt="Recurring activities by week days"
+                             src="recurring_activites_by_weekdays.png"
+                        />
+                    </div>
+
+                    <div class="col-md-12 mb32 alert alert-success">
+                         <span style="font-size:18px">
+                            Repeat an activity each month in a proper day
+                         </span>
+                    </div>
+                    <div class="col-md-12 mb32">
+                        <img class="img img-responsive shadow"
+                             alt="Schedule activities by months"
+                             src="recurring_activities_month.png"
+                        />
+                    </div>
+
+                    <div class="col-md-12 mb32 alert alert-success">
+                         <span style="font-size:18px">
+                            Rules for scheduled activities is available from the Systray
+                         </span>
+                    </div>
+                    <div class="col-md-12 mb32">
+                        <img class="img img-responsive shadow"
+                             alt="Header entry for repeated activities"
+                             src="recurring_activities_systray.png"
+                        />
+                    </div>
+
+                    <div class="col-md-12 mb32 alert alert-success">
+                         <span style="font-size:18px">
+                            Have an unlimited number of rules for repeated activities
+                         </span>
+                    </div>
+                    <div class="col-md-12 mb32">
+                        <img class="img img-responsive shadow"
+                             alt="List of recurrent activities"
+                             src="recurring_activities_list.png"
+                        />
+                    </div>
+
+                    <div class="col-md-12 mb32 alert alert-success">
+                         <span style="font-size:18px">
+                            Recurring activities planned by days
+                         </span>
+                    </div>
+                    <div class="col-md-12 mb32">
+                        <img class="img img-responsive shadow"
+                             alt="Recurring activities with x-days frequency"
+                             src="recurring_activities_by_days.png"
+                        />
+                    </div>
+
+                    <div class="col-md-12 mb32 alert alert-success">
+                         <span style="font-size:18px">
+                            Plan regular activities per years
+                         </span>
+                    </div>
+                    <div class="col-md-12 mb32">
+                        <img class="img img-responsive shadow"
+                             alt="Recurrence with year frequency"
+                             src="recurring_activities_year.png"
+                        />
+                    </div>
+
+                    <div class="col-md-12 mb32 alert alert-success">
+                         <span style="font-size:18px">
+                            Security for scheduled activities' rules
+                         </span>
+                    </div>
+                    <div class="col-md-12 mb32">
+                        <img class="img img-responsive shadow"
+                             alt="User rights for security activities"
+                             src="recurring_activities_user_right.png"
+                        />
+                    </div>
+
+                </div>
+
+                <div class="tab-pane" id="config">
+
+                        <div class="mb8">
+
+                            <h3>Scheduled job (cron)</h3>
+                            <span style="font-size:18px">
+                                <p>
+By default Odoo checks repeated activities every day early in the morning. You can change it. To that end go to:
+</p>
+<ul>
+<li>Settings > Technical > Automation > Scheduled Actions > Recurrent Activities</li>
+</ul>
+                            </span>
+
+                        </div>
+
+                        <div class="mb8">
+
+                            <h3>Installation Tips</h3>
+                            <span style="font-size:18px">
+                                In order the widget works correctly, re-start Odoo server. If you faced the error 'Qweb2: Template is not found': restart Odoo server > refresh the page (Ctrl+Shift+R)
+                            </span>
+
+                        </div>
+
+                </div>
+
+                <div class="tab-pane" id="support_info">
+
+                    <div class="col-md-12">
+                        <p style="font-size:18px;">
+                            <a href="https://odootools.com/">OdooTools</a> is the team of developers and business analysts to help you extend Odoo potential. We have been communicating with end users to whom the software became the main business tool since 2012. As a result, we are proud of dozens of successful Odoo apps developed.  We are open for new ideas and challenges to create the best Odoo tools for business needs all over the world.
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-12 mb4 alert alert-success">
+                         <span style="font-size:18px">
+                            To contact us please register in our support system. Registration form is available by any link below. Registration doesn't take more than 30 seconds. No phone number or credit card are required
+                         </span>
+                    </div>
+
+                    <div class="col-md-12"
+                         style="background-color:#339966; padding:2%;"
+                    >
+                        <div style="font-size:25px;" class="text-center">
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_108&amp;x_custom_2=x_option_3&amp;x_custom_3=x_option_7&amp;url_type_id=1"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-bug" style="color:white;"/> Bug Report
+                            </a>
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_108&amp;x_custom_2=x_option_3&amp;x_custom_3=x_option_7&amp;url_type_id=4"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-info-circle" style="color:white;"/> Raise Question
+                            </a>
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_108&amp;x_custom_2=x_option_3&amp;x_custom_3=x_option_7&amp;url_type_id=2"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-bookmark" style="color:white;"/> New Features
+                            </a>
+                        </div>
+                        <div style="font-size:25px"  class="text-center">
+
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_108&amp;x_custom_2=x_option_3&amp;x_custom_3=x_option_7&amp;url_type_id=3&amp;name=Demo Database for Testing"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-laptop" style="color:white;"/>  Request Demo Database (Live Preview)
+                            </a>
+
+                            <a href="https://odootools.com/my/tickets/newticket?&amp;x_custom_1=x_option_108&amp;x_custom_2=x_option_3&amp;x_custom_3=x_option_7&amp;url_type_id=5"
+                               target="_blank"
+                               style="color:white;padding:0 1% 0 1%"
+                            >
+                                <i class="fa fa-lightbulb-o" style="color:white;"/>  Share Module Ideas
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+                
