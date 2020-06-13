@@ -101,7 +101,7 @@ class ImportAccountBankStatement(models.TransientModel):
             except Exception:
                 raise UserError(_("Please check file, may be not in Proper Excel Formate, Please check !"))
             sheet = workbook.sheet_by_index(0)
-            for row_no in range(20, sheet.nrows - 2):
+            for row_no in range(20, sheet.nrows - 1):
                 bank_statement_line = list(map(lambda row: str(row.value), sheet.row(row_no)))
                 year, month, day, hour, minute, second = xlrd.xldate_as_tuple(int(float(bank_statement_line[0])), 0)
                 date = str(year) + '-' + str(month) + '-' + str(day)

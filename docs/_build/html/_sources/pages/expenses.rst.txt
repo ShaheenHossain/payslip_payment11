@@ -9,19 +9,14 @@ Expenses being done can be broadly classified into two categories:
 Depending on the type, the workflow will be different
 
 
-Expenses can also be categorized into
+Company Expenses can be further categorized into
 
-#. **GST Expenses - Whose input GST has to be claimed by the company**
-#. **Non-GST Expenses - Whose input GST cannot be claimed by the company**
-
-
-Expenses can also be
-
-#. **Recurring - Monthly Rent, Phone, electricity bills etc**
-#. **Non-recurring - One time expenses**
+#. **Recurring - GST Expenses - Recurring on a timely basis and whose input GST has to be claimed by the company. Eg. Mobile/Telephone Bills**
+#. **Recurring - Non-GST Expenses - Recurring on a timely basis and whose input GST cannot be claimed by the company. Eg. Local Broadband expenses, Office Rent, Electricity Bills**
+#. **Non-Recurring - GST Expenses - One Time Expenses such as buying IT assets such as computers, Electrical Equipment**
+#. **Non-recurring - Non-GST Expenses - One time expenses such as Stationary, Fooding etc**
 
 
-Recurring expenses are generally taken care by the company - Company Expenses
 
 
 How to set expense types

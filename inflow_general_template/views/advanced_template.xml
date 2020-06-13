@@ -259,7 +259,7 @@
                                                                 </t>
                                                                 <t t-if="o.partner_id.partner_pan_number">
                                                                     <b t-attf-style="color: #{o.company_id and o.company_id.customer_address_color or '#ffffff'};">PAN: </b>
-                                                                    <span t-attf-style="color: #{o.company_id and o.company_id.customer_address_color or '#ffffff'};" t-field="o.partner_id.partner_id.partner_pan_number"/>
+                                                                    <span t-attf-style="color: #{o.company_id and o.company_id.customer_address_color or '#ffffff'};" t-field="o.partner_id.partner_pan_number"/>
                                                                 </t>
                                                             </p>
                                                         </td>
