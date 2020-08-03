@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a75b10f-a8ba-46a3-93f8-4e6620d9e035" name="Default Changelist" comment="Addon Commit">
-      <change afterPath="$PROJECT_DIR$/docs/_build/doctrees/pages/accounting/credit_notes_and_refunds.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_build/html/_sources/pages/accounting/credit_notes_and_refunds.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_build/html/pages/accounting/credit_notes_and_refunds.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/pages/accounting/credit_notes_and_refunds.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/doctrees/environment.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/doctrees/environment.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/doctrees/pages/accounting.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/doctrees/pages/accounting.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/doctrees/pages/expenses.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/doctrees/pages/expenses.doctree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/_sources/pages/accounting.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/_sources/pages/accounting.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/_sources/pages/expenses.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/_sources/pages/expenses.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/pages/accounting.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/pages/accounting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/pages/expenses.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/pages/expenses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_build/html/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_build/html/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pages/accounting.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/pages/accounting.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pages/expenses.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/pages/expenses.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inflow_general_template/views/advanced_template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inflow_general_template/views/advanced_template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ip_import_bank_statement/wizard/bank_statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/ip_import_bank_statement/wizard/bank_statement.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
